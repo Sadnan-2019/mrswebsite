@@ -1,0 +1,27 @@
+
+  .shape {
+    transform: translate(-65%, -80%);
+    width:200px; /* Adjust the shape size as per your needs */
+    height: 200px;
+    background-color: #2E3D1E;
+    /* Set the shape background color */
+    border-radius: 50%; /* Adjust the border radius to create different shapes */
+    /* margin-bottom: -10%; */
+    
+  }
+  .shapetwo {
+    /* position: absolute; */
+    /* top: 20%; */
+    /* left: 100%; */
+    transform: translate(70%, -50%);
+    width:200px; /* Adjust the shape size as per your needs */
+    height: 200px;
+    background-color: #2E3D1E; /* Set the shape background color */
+    border-radius: 50%;
+    float: right;
+  }
+  
+ 
+  
+   
+  

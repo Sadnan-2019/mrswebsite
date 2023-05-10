@@ -1,4 +1,6 @@
 import React from 'react';
+import { BsArrowRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -332,7 +334,16 @@ const Footer = () => {
 
        
 
-       
+        <Link
+                      className= " hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center   md:px-8 md:py-3  border          text-white "
+                      to="/"
+                    >
+                      <span className="text-sm font-medium">
+                        {" "}
+                        Get your dream
+                      </span>
+                      {/* <BsArrowRight className="text-lg ml-2" /> */}
+                    </Link>
       </p>
     </div>
   </div>

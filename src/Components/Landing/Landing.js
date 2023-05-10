@@ -101,19 +101,20 @@ const Landing = () => {
                     data-aos-duration="3000"
                     className="flex  gap-4 mt-10 text-center"
                   >
-                    <Link
-                      className= " hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center   md:px-8 md:py-3  border   rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring transition ease-in-out delay-150  text-white hover:text-black"
-                      to="/"
+                    <a 
+                      className= " hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white "
+                      href="/"
                     >
                       <span className="text-sm font-medium">
                         {" "}
-                        Get your dream
+                        GET STARTED WITH US
                       </span>
                       <BsArrowRight className="text-lg ml-2" />
-                    </Link>
+                    </a>
                     {/* <button class="hover-button">Hover Me</button> */}
 
                   </div>
+                  {/* <div class="shape"></div> */}
                 </div>
                 {/* <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   <img src={camera} className="rotation-container" alt="" />

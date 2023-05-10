@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Components/Nav/Nav';
 import Footer from './Components/Footer/Footer';
 import Landing from './Components/Landing/Landing';
+import Service from './Components/Service/Service';
 
 function App() {
   return (
@@ -23,9 +24,11 @@ function App() {
         </a>
       </header> */}
 <Landing>
+  
 
 
 </Landing>
+<Service></Service>
       <Footer></Footer>
     </div>
   );

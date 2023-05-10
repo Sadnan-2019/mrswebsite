@@ -3,20 +3,20 @@
   color: rgb(29, 7, 94);
   
 }
-
+ 
 .hover-button {
-  border: none;
+  /* border: none; */
   border-radius: 50px; /* Adjust the border radius to make it more or less rounded */
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #491ec2; /* Set the initial background color */
-  color: white; /* Set the initial text color */
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Adjust the transition duration and timing function as needed */
+  /* Set the initial background color */
+  /* Set the initial text color */
+  /* Adjust the transition duration and timing function as needed */
 }
 
 .hover-button:hover {
-  background-color: #042004; /* Set the new background color on hover */
-  color: #c82525; /* Set the new text color on hover */
+  /* Set the new background color on hover */
+  color: white; /* Set the new text color on hover */
   transform: rotate(360deg); /* Apply the 360-degree rotation on hover */
   animation: rotate 10s infinite linear;
 }
