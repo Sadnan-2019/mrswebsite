@@ -4,6 +4,7 @@ import Nav from './Components/Nav/Nav';
 import Footer from './Components/Footer/Footer';
 import Landing from './Components/Landing/Landing';
 import Service from './Components/Service/Service';
+import Shape from './Components/Shape/Shape';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
 
 
 </Landing>
-<Service></Service>
+ <Shape></Shape>
+ <Service></Service>
       <Footer></Footer>
     </div>
   );

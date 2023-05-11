@@ -50,7 +50,7 @@ const Landing = () => {
 
   return (
     <div>
-      <div className="   py-7 h-auto w-auto landingtext">
+      <div className="   py-7   h-auto   landingtext">
         <Nav></Nav>
         <Slider {...settings}>
           <div className=" ">
