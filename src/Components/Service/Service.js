@@ -2,10 +2,23 @@
  import "./Service.css"
  const Service = () => {
     return (
-        <div className=' bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white'>
-                    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10      py-8 ">
+        <div className=' bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D] shadow-xl  text-white'>
+                    <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center items-center  py-8 ">
 
-                    <div class="diamond max-w-md shadow-xl w-full bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF] shadow-lg rounded-xl p-6"></div>
+                    <div class="diamond   mask mask-hexagon    text-white  ">
+                    <div className="card w-96   shadow-xl">
+  <figure className="px-10 pt-10">
+    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+                    </div>
                     <div class="diamond"></div>
                     <div class="diamond"></div>
 

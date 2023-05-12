@@ -1,7 +1,26 @@
-.diamond {
+/* .diamond {
   width: 100px;
   height: 100px;
-  /* background-color: red; */
-  transform: rotate(45deg);
-}
+  background-color: red;
+  transform: rotate(30deg);
+} */
 
+.diamond {
+  /* width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color:white; */
+  /* background-color: rgb(222, 39, 39); */
+  /* background-image: radial-gradient(circle, #100910 0%, #5315159d 100%); */
+  background: linear-gradient(90deg, #cf2144 0%, #051151 100%);
+}
+/* .diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: red;
+} */
