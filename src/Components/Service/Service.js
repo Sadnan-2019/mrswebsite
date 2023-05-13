@@ -37,96 +37,61 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div class="diamond   mask mask-hexagon    text-white  ">
-          <div className="card w-96   shadow-xl">
-            <figure className="px-10 pt-10">
+        <div
+          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          style={{ height: "400px" }}
+        >
+          <div className="       ">
+            <figure className=" rounded-lg">
               <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src={video}
                 alt="Shoes"
-                className="rounded-xl"
+                className="rounded-xl p-4"
+                style={{ height: "100px" }}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions">
+              <h2 className="card-title">Video Editing</h2>
+              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+                Our fifteen employee-team works round the clock to serve the
+                community. We are ready to answer phone calls 24/7.We are open
+                for conversation listening to attendants complaints.We can
+                provide home service with caregiver even at mid night.
+              </p>
+              {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
-        <div class="diamond   mask mask-hexagon    text-white  ">
-          <div className="card w-96   shadow-xl">
-            <figure className="px-10 pt-10">
+        <div
+          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          style={{ height: "400px" }}
+        >
+          <div className="       ">
+            <figure className=" rounded-lg">
               <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src={video}
                 alt="Shoes"
-                className="rounded-xl"
+                className="rounded-xl p-4"
+                style={{ height: "100px" }}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions">
+              <h2 className="card-title">Video Editing</h2>
+              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+                Our fifteen employee-team works round the clock to serve the
+                community. We are ready to answer phone calls 24/7.We are open
+                for conversation listening to attendants complaints.We can
+                provide home service with caregiver even at mid night.
+              </p>
+              {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
-        <div class="diamond   mask mask-hexagon    text-white  ">
-          <div className="card w-96   shadow-3xl">
-            <figure className="px-10 pt-10">
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-                className="rounded-xl"
-              />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">My Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="diamond   mask mask-hexagon shadow-xl   text-white  ">
-          <div className="card w-96   ">
-            <figure className="px-10 pt-10">
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-                className="rounded-xl"
-              />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions">
-                {/* <button className="btn btn-primary">Buy Now</button> */}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="diamond   mask mask-hexagon    text-white  ">
-          <div className="card w-96   shadow-xl">
-            <figure className="px-10 pt-10">
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-                className="rounded-xl"
-              />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
+     
       </div>
       {/* <svg
         width="100%"
