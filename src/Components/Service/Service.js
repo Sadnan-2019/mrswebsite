@@ -2,6 +2,10 @@ import React from "react";
 import video from "../../assets/VIdeoEditone.png";
 import graphices from "../../assets/graphic-design (1).png";
 import digitalmarketing from "../../assets/social-media (1).png";
+// import SEO from "../../assets/seo (3).png";
+// import SEO1 from "../../assets/seo (5).png";
+import SEO2 from "../../assets/seo (1).png";
+import web from "../../assets/webdevelopment.png";
 import "./Service.css";
 const Service = () => {
   return (
@@ -74,6 +78,87 @@ const Service = () => {
             <figure className=" rounded-lg">
               <img
                 src={digitalmarketing}
+                alt="Shoes"
+                className="rounded-xl p-4"
+                style={{ height: "100px" }}
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Digital Marketing</h2>
+              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+                Our fifteen employee-team works round the clock to serve the
+                community. We are ready to answer phone calls 24/7.We are open
+                for conversation listening to attendants complaints.We can
+                provide home service with caregiver even at mid night.
+              </p>
+              {/* <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div> */}
+            </div>
+          </div>
+        </div>
+        <div
+          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          style={{ height: "400px" }}
+        >
+          <div className="       ">
+            <figure className=" rounded-lg">
+              <img
+                src={SEO2}
+                alt="Shoes"
+                className="rounded-xl p-4"
+                style={{ height: "100px" }}
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Search Engine Optiomization</h2>
+              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+                Our fifteen employee-team works round the clock to serve the
+                community. We are ready to answer phone calls 24/7.We are open
+                for conversation listening to attendants complaints.We can
+                provide home service with caregiver even at mid night.
+              </p>
+              {/* <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div> */}
+            </div>
+          </div>
+        </div>
+        <div
+          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          style={{ height: "400px" }}
+        >
+          <div className="       ">
+            <figure className=" rounded-lg">
+              <img
+                src={web}
+                alt="Shoes"
+                className="rounded-xl p-4"
+                style={{ height: "100px" }}
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Web Development </h2>
+              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+                Our fifteen employee-team works round the clock to serve the
+                community. We are ready to answer phone calls 24/7.We are open
+                for conversation listening to attendants complaints.We can
+                provide home service with caregiver even at mid night.
+              </p>
+              {/* <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div> */}
+            </div>
+          </div>
+        </div>
+        <div
+          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          style={{ height: "400px" }}
+        >
+          <div className="       ">
+            <figure className=" rounded-lg">
+              <img
+                src={SEO2}
                 alt="Shoes"
                 className="rounded-xl p-4"
                 style={{ height: "100px" }}
