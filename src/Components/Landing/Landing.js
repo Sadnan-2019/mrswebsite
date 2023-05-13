@@ -7,6 +7,8 @@ import camera from "../../assets/main-camera.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { FaPhoneVolume } from "react-icons/fa";
+import { Typewriter } from 'react-simple-typewriter'
+
 import Nav from "../Nav/Nav";
 const Landing = () => {
   var settings = {
@@ -47,6 +49,13 @@ const Landing = () => {
       },
     ],
   };
+  const handleType = (count ) => {
+    // access word count number
+    // console.log(count)
+  }
+    const handleDone = () => {
+        // console.log(`Done after 5 loops!`)
+      }
 
   return (
     <div>
@@ -72,7 +81,8 @@ const Landing = () => {
                     Media Resource Solution
                   </p>
 
-                  <p
+                  {/* <p
+                  
                     data-aos="fade-up"
                     data-aos-duration="2000"
                     className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
@@ -80,7 +90,30 @@ const Landing = () => {
                   >
                     First ever one-stop high-quality media resource solution at
                     your doorstep.{" "}
-                  </p>
+                  </p> */}
+
+
+
+
+<h1  className='mb-5 text-lg  lg:text-xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t '
+style={{ lineHeight: "120%", color: "white" }} >
+First ever one-stop high-quality{' '}
+        <span className='mb-5 text-lg  lg:text-xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ' >
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['  media resource solution at your doorstep', ]}
+            loop={true}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            cursorBlinking={true}
+            onLoopDone={handleDone}
+            onType={handleType}
+          />
+        </span>
+      </h1> 
 
                   <div className="flex items-center mt-2 font-bold">
                     <FaPhoneVolume

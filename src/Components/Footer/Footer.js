@@ -235,7 +235,7 @@ const Footer = () => {
 
        
 
-        <Link
+        {/* <Link
                       className= " hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center   md:px-8 md:py-3  border          text-white "
                       to="/"
                     >
@@ -243,8 +243,7 @@ const Footer = () => {
                         {" "}
                         Get your dream
                       </span>
-                      {/* <BsArrowRight className="text-lg ml-2" /> */}
-                    </Link>
+                     </Link> */}
       </p>
     </div>
   </div>
