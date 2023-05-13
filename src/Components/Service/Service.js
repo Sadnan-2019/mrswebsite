@@ -1,29 +1,39 @@
 import React from "react";
+import video from "../../assets/VIdeoEditone.png";
 import "./Service.css";
 const Service = () => {
   return (
-    <div className=" bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D] shadow-xl  text-white">
+    <div className=" bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D]  text-white">
       <div className=" ">
         <h2 className="text-3xl text-center text-white py-10  font-bold poppins-b sm:text-4xl">
           Our Service
         </h2>
       </div>
       <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center  py-10 ">
-        <div class="diamond   mask mask-hexagon  shadow-xl  text-white  ">
-          <div className="card w-96   shadow-xl">
-            <figure className="px-10 pt-10">
+        <div
+          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          style={{ height: "400px" }}
+        >
+          <div className="       ">
+            <figure className=" rounded-lg">
               <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                src={video}
                 alt="Shoes"
-                className="rounded-xl"
+                className="rounded-xl p-4"
+                style={{ height: "100px" }}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions">
+              <h2 className="card-title">Video Editing</h2>
+              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+                Our fifteen employee-team works round the clock to serve the
+                community. We are ready to answer phone calls 24/7.We are open
+                for conversation listening to attendants complaints.We can
+                provide home service with caregiver even at mid night.
+              </p>
+              {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -64,7 +74,7 @@ const Service = () => {
           </div>
         </div>
         <div class="diamond   mask mask-hexagon    text-white  ">
-          <div className="card w-96   shadow-xl">
+          <div className="card w-96   shadow-3xl">
             <figure className="px-10 pt-10">
               <img
                 src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -73,7 +83,7 @@ const Service = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Shoes!</h2>
+              <h2 className="card-title">My Shoes!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -81,8 +91,8 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div class="diamond   mask mask-hexagon    text-white  ">
-          <div className="card w-96   shadow-xl">
+        <div class="diamond   mask mask-hexagon shadow-xl   text-white  ">
+          <div className="card w-96   ">
             <figure className="px-10 pt-10">
               <img
                 src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -94,7 +104,7 @@ const Service = () => {
               <h2 className="card-title">Shoes!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
+                {/* <button className="btn btn-primary">Buy Now</button> */}
               </div>
             </div>
           </div>
