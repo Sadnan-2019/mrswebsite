@@ -1,121 +1,155 @@
- import React from 'react';
- import "./Service.css"
- const Service = () => {
-    return (
-        <div className=' bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D] shadow-xl  text-white'>
-                    <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center items-center  py-8 ">
-
-                    <div class="diamond   mask mask-hexagon    text-white  ">
-                    <div className="card w-96   shadow-xl">
-  <figure className="px-10 pt-10">
-    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
-                    </div>
-                    <div class="diamond"></div>
-                    <div class="diamond"></div>
-
-                        </div>
-                        
-                      
-{/* <div class="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover" 
- id="modal-id">
-  <div class="absolute bg-black opacity-80 inset-0 z-0"></div>
-  <div class="relative min-h-screen flex flex-col items-center justify-center ">
-    <div class="container">
-      <div class="max-w-md w-full bg-gray-900 shadow-lg rounded-xl p-6">
-        <div class="flex flex-col ">
-          <div class="">
-            <div class="relative h-62 w-full mb-3">
-              <div class="absolute flex flex-col top-0 right-0 p-3">
-                <button class="transition ease-in duration-300 bg-gray-800  hover:text-purple-500 shadow hover:shadow-md text-gray-500 rounded-full w-8 h-8 text-center p-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                  </svg></button>
+import React from "react";
+import "./Service.css";
+const Service = () => {
+  return (
+    <div className=" bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D] shadow-xl  text-white">
+      <div className=" ">
+        <h2 className="text-3xl text-center text-white py-10  font-bold poppins-b sm:text-4xl">
+          Our Service
+        </h2>
+      </div>
+      <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center  py-10 ">
+        <div class="diamond   mask mask-hexagon  shadow-xl  text-white  ">
+          <div className="card w-96   shadow-xl">
+            <figure className="px-10 pt-10">
+              <img
+                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+                className="rounded-xl"
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
               </div>
-              <img src="https://images.unsplash.com/photo-1577982787983-e07c6730f2d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2059&q=80" alt="Just a flower" class=" w-full   object-fill  rounded-2xl"/>
             </div>
-            <div class="flex-auto justify-evenly">
-              <div class="flex flex-wrap ">
-                <div class="w-full flex-none text-sm flex items-center text-gray-600">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-red-500 mr-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                  <span class="text-gray-400 whitespace-nowrap mr-3">4.60</span><span class="mr-2 text-gray-400">India</span>
-                </div>
-                <div class="flex items-center w-full justify-between min-w-0 ">
-                  <h2 class="text-lg mr-auto cursor-pointer text-gray-200 hover:text-purple-500 truncate ">Lorem ipsum
-                    is placeholder text commonly used in the graphic</h2>
-                  <div class="flex items-center bg-green-400 text-white text-xs px-2 py-1 ml-3 rounded-lg">
-                    INSTOCK</div>
-                </div>
+          </div>
+        </div>
+        <div class="diamond   mask mask-hexagon    text-white  ">
+          <div className="card w-96   shadow-xl">
+            <figure className="px-10 pt-10">
+              <img
+                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+                className="rounded-xl"
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
               </div>
-              <div class="text-xl text-white font-semibold mt-1">$240.00</div>
-              <div class="lg:flex  py-4  text-sm text-gray-600">
-                <div class="flex-1 inline-flex items-center  mb-3">
-                  <div class="w-full flex-none text-sm flex items-center text-gray-600">
-                    <ul class="flex flex-row justify-center items-center space-x-2">
-                      <li class="">
-                        <span class="block p-1 border-2 border-gray-900 hover:border-blue-600 rounded-full transition ease-in duration-300">
-                          <a href="#blue" class="block w-3 h-3 bg-blue-600 rounded-full"></a>
-                        </span>
-                      </li>
-                      <li class="">
-                        <span class="block p-1 border-2 border-gray-900 hover:border-yellow-400 rounded-full transition ease-in duration-300">
-                          <a href="#yellow" class="block w-3 h-3  bg-yellow-400 rounded-full"></a>
-                        </span>
-                      </li>
-                      <li class="">
-                        <span class="block p-1 border-2 border-gray-900 hover:border-red-500 rounded-full transition ease-in duration-300">
-                          <a href="#red" class="block w-3 h-3  bg-red-500 rounded-full"></a>
-                        </span>
-                      </li>
-                      <li class="">
-                        <span class="block p-1 border-2 border-gray-900 hover:border-green-500 rounded-full transition ease-in duration-300">
-                          <a href="#green" class="block w-3 h-3  bg-green-500 rounded-full"></a>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex-1 inline-flex items-center mb-3">
-                  <span class="text-secondary whitespace-nowrap mr-3">Size</span>
-                  <div class="cursor-pointer text-gray-400 ">
-                    <span class="hover:text-purple-500 p-1 py-0">S</span>
-                    <span class="hover:text-purple-500 p-1 py-0">M</span>
-                    <span class="hover:text-purple-500 p-1 py-0">L</span>
-                    <span class="hover:text-purple-500 p-1 py-0">XL</span>
-
-                  </div>
-                </div>
+            </div>
+          </div>
+        </div>
+        <div class="diamond   mask mask-hexagon    text-white  ">
+          <div className="card w-96   shadow-xl">
+            <figure className="px-10 pt-10">
+              <img
+                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+                className="rounded-xl"
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
               </div>
-              <div class="flex space-x-2 text-sm font-medium justify-start">
-                <button class="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 ">
-                  <span>Add Cart</span>
-                </button>
-                <button class="transition ease-in duration-300 bg-gray-700 hover:bg-gray-800 border hover:border-gray-500 border-gray-700 hover:text-white  hover:shadow-lg text-gray-400 rounded-full w-9 h-9 text-center p-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                  </svg>
-                </button>
+            </div>
+          </div>
+        </div>
+        <div class="diamond   mask mask-hexagon    text-white  ">
+          <div className="card w-96   shadow-xl">
+            <figure className="px-10 pt-10">
+              <img
+                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+                className="rounded-xl"
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="diamond   mask mask-hexagon    text-white  ">
+          <div className="card w-96   shadow-xl">
+            <figure className="px-10 pt-10">
+              <img
+                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+                className="rounded-xl"
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="diamond   mask mask-hexagon    text-white  ">
+          <div className="card w-96   shadow-xl">
+            <figure className="px-10 pt-10">
+              <img
+                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+                className="rounded-xl"
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {/* <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 0 1440 590"
+        xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150"
+      >
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stop-color="#F78DA7"></stop>
+            <stop offset="95%" stop-color="#8ED1FC"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,600 C 0,600 0,300 0,300 C 113.89285714285714,247.75 227.78571428571428,195.5 338,204 C 448.2142857142857,212.5 554.7500000000001,281.75 688,280 C 821.2499999999999,278.25 981.2142857142858,205.5 1111,197 C 1240.7857142857142,188.5 1340.392857142857,244.25 1440,300 C 1440,300 1440,600 1440,600 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg> */}
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="white"
+          fill-opacity="50"
+          d="M0,192L80,202.7C160,213,320,235,480,208C640,181,800,107,960,117.3C1120,128,1280,224,1360,272L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
     </div>
-  </div>
-</div> */}
+  );
+};
 
-        </div>
-    );
- };
- 
- export default Service;
+export default Service;

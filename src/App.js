@@ -29,7 +29,7 @@ function App() {
 
 
 </Landing>
- <Shape></Shape>
+ {/* <Shape></Shape> */}
  <Service></Service>
       <Footer></Footer>
     </div>
