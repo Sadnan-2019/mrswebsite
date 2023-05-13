@@ -95,10 +95,10 @@ const Landing = () => {
 
 
 
-<h1  className='mb-5 text-lg  lg:text-xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t '
+<h1  className='mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t '
 style={{ lineHeight: "120%", color: "white" }} >
 First ever one-stop high-quality{' '}
-        <span className='mb-5 text-lg  lg:text-xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ' >
+        <span className='mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ' >
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={['  media resource solution at your doorstep', ]}

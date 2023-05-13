@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../../assets/VIdeoEditone.png";
 import graphices from "../../assets/graphic-design (1).png";
+import digitalmarketing from "../../assets/social-media (1).png";
 import "./Service.css";
 const Service = () => {
   return (
@@ -72,14 +73,14 @@ const Service = () => {
           <div className="       ">
             <figure className=" rounded-lg">
               <img
-                src={video}
+                src={digitalmarketing}
                 alt="Shoes"
                 className="rounded-xl p-4"
                 style={{ height: "100px" }}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Video Editing</h2>
+              <h2 className="card-title">Digital Marketing</h2>
               <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
