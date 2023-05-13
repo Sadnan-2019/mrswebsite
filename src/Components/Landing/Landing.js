@@ -7,7 +7,7 @@ import camera from "../../assets/main-camera.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { FaPhoneVolume } from "react-icons/fa";
-import { Typewriter } from 'react-simple-typewriter'
+import { Typewriter } from "react-simple-typewriter";
 
 import Nav from "../Nav/Nav";
 const Landing = () => {
@@ -49,13 +49,13 @@ const Landing = () => {
       },
     ],
   };
-  const handleType = (count ) => {
+  const handleType = (count) => {
     // access word count number
     // console.log(count)
-  }
-    const handleDone = () => {
-        // console.log(`Done after 5 loops!`)
-      }
+  };
+  const handleDone = () => {
+    // console.log(`Done after 5 loops!`)
+  };
 
   return (
     <div>
@@ -92,28 +92,27 @@ const Landing = () => {
                     your doorstep.{" "}
                   </p> */}
 
-
-
-
-<h1  className='mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t '
-style={{ lineHeight: "120%", color: "white" }} >
-First ever one-stop high-quality{' '}
-        <span className='mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ' >
-          {/* Style will be inherited from the parent element */}
-          <Typewriter
-            words={['  media resource solution at your doorstep', ]}
-            loop={true}
-            cursor
-            cursorStyle='_'
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-            cursorBlinking={true}
-            onLoopDone={handleDone}
-            onType={handleType}
-          />
-        </span>
-      </h1> 
+                  <h1
+                    className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
+                    style={{ lineHeight: "120%", color: "white" }}
+                  >
+                    First ever one-stop high-quality{" "}
+                    <span className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ">
+                      {/* Style will be inherited from the parent element */}
+                      <Typewriter
+                        words={["  media resource solution at your doorstep"]}
+                        loop={true}
+                        cursor
+                        cursorStyle="_"
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                        cursorBlinking={true}
+                        onLoopDone={handleDone}
+                        onType={handleType}
+                      />
+                    </span>
+                  </h1>
 
                   <div className="flex items-center mt-2 font-bold">
                     <FaPhoneVolume
@@ -134,8 +133,8 @@ First ever one-stop high-quality{' '}
                     data-aos-duration="3000"
                     className="flex  gap-4 mt-10 text-center"
                   >
-                    <a 
-                      className= " hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white "
+                    <a
+                      className=" hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white "
                       href="/"
                     >
                       <span className="text-sm font-medium">
@@ -145,20 +144,23 @@ First ever one-stop high-quality{' '}
                       <BsArrowRight className="text-lg ml-2" />
                     </a>
                     {/* <button class="hover-button">Hover Me</button> */}
-
                   </div>
                   {/* <div class="shape"></div> */}
                 </div>
-                {/* <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
-                  <img src={camera} className="rotation-container" alt="" />
-                </div> */}
+               
 
                 <div class="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container">
-  <img src={camera} alt=""/>
-</div>
+                  <img src={camera} alt="" />
+                </div>
               </div>
 
-
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="white"
+                  fill-opacity="50"
+                  d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                ></path>
+              </svg>
             </section>
           </div>
           <div className=" ">
@@ -197,10 +199,6 @@ First ever one-stop high-quality{' '}
               <div className="  bg-opacity-60"></div>
               <div className="hero-content text-center text-neutral-content lg:text-neutral-content">
                 <div className="max-w-md">
-                  {/* <h1 className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"  data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000">Welcome to The </h1> */}
                   <h1
                     className="lg:mb-5 sm:text-2xl lg:text-4xl font-bold"
                     data-aos="fade-right"
@@ -242,7 +240,6 @@ First ever one-stop high-quality{' '}
               </div>
             </div>
           </div>
-        
         </Slider>
       </div>
     </div>
