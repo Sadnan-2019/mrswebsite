@@ -6,6 +6,7 @@ import digitalmarketing from "../../assets/social-media (1).png";
 // import SEO1 from "../../assets/seo (5).png";
 import SEO2 from "../../assets/seo (1).png";
 import web from "../../assets/webdevelopment.png";
+import mobile from "../../assets/mobile-app.png";
 import "./Service.css";
 const Service = () => {
   return (
@@ -158,14 +159,14 @@ const Service = () => {
           <div className="       ">
             <figure className=" rounded-lg">
               <img
-                src={SEO2}
+                src={mobile}
                 alt="Shoes"
                 className="rounded-xl p-4"
                 style={{ height: "100px" }}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Digital Marketing</h2>
+              <h2 className="card-title">App Development</h2>
               <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
