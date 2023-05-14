@@ -35,9 +35,16 @@ const Footer = () => {
                   placeholder="john@doe.com"
                 />
 
-                <button class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
+                {/* <button class="absolute end-1 top-1/2 -translate-y-1/2 bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white px-5 py-3 text-sm font-medium   transition hover:bg-[#38235D]">
                   Subscribe
-                </button>
+                </button> */}
+                <Link
+                      className= " absolute hidden end-1 mt-1 hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center   md:px-8 md:py-3  border          text-white "
+                      to="/"
+                    >
+                      
+                      Subscribe                      
+                     </Link>
               </div>
             </form>
           </div>
