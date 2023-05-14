@@ -7,6 +7,7 @@ import Service from './Components/Service/Service';
 import Shape from './Components/Shape/Shape';
 import TopNav from './Components/TopNav/TopNav';
 import Review from './Components/Review/Review';
+import SVG from './Components/SVG/SVG';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
  {/* <Shape></Shape> */}
  <Service></Service>
  <Review></Review>
+ <SVG></SVG>
       <Footer></Footer>
     </div>
   );
