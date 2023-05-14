@@ -6,6 +6,7 @@ import Landing from './Components/Landing/Landing';
 import Service from './Components/Service/Service';
 import Shape from './Components/Shape/Shape';
 import TopNav from './Components/TopNav/TopNav';
+import Review from './Components/Review/Review';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
 </Landing>
  {/* <Shape></Shape> */}
  <Service></Service>
+ <Review></Review>
       <Footer></Footer>
     </div>
   );
