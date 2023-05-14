@@ -15,8 +15,8 @@ const SVG = () => {
            
           <defs>
             <linearGradient id="gradient" x1="38%" y1="1%" x2="62%" y2="99%">
-              <stop offset="5%" stop-color="#F78DA7"></stop>
-              <stop offset="95%" stop-color="#8ED1FC"></stop>
+              <stop offset="5%" stop-color="white"></stop>
+              <stop offset="95%" stop-color="red"></stop>
             </linearGradient>
           </defs>
           <path
