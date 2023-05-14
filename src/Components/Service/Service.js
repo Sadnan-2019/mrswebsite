@@ -11,17 +11,21 @@ import "./Service.css";
 const Service = () => {
   return (
     <div className=" bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D]  text-white">
-      <div className=" " data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+      <div
+        className=" "
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <h2 className="text-3xl text-center text-white py-10  font-bold poppins-b sm:text-4xl">
           Our Service
         </h2>
       </div>
       <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center  py-10 ">
-        <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
@@ -48,14 +52,15 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
+        <div
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
           <div className="       ">
-            <figure className=" rounded-lg">
+            <figure className=" rounded-lg image-container">
               <img
                 src={graphices}
                 alt="Shoes"
@@ -77,14 +82,15 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
           <div className="       ">
-            <figure className=" rounded-lg">
+            <figure className=" rounded-lg image-container">
               <img
                 src={digitalmarketing}
                 alt="Shoes"
@@ -106,14 +112,15 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
           <div className="       ">
-            <figure className=" rounded-lg">
+            <figure className=" rounded-lg image-container">
               <img
                 src={SEO2}
                 alt="Shoes"
@@ -135,14 +142,15 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
+        <div
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
           <div className="       ">
-            <figure className=" rounded-lg">
+            <figure className=" rounded-lg image-container">
               <img
                 src={web}
                 alt="Shoes"
@@ -164,14 +172,15 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
           <div className="       ">
-            <figure className=" rounded-lg">
+            <figure className=" rounded-lg image-container">
               <img
                 src={mobile}
                 alt="Shoes"
@@ -193,7 +202,6 @@ const Service = () => {
             </div>
           </div>
         </div>
-     
       </div>
       {/* <svg
         width="100%"

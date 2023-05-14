@@ -5,7 +5,7 @@ import { MdOutlinePhonelinkRing } from "react-icons/md";
 const TopNav = () => {
     return (
         <div>
-             <div className=" ">
+             <div className="sticky top-0 z-50 ">
       <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
         <div>
           <img  src={logo} className="w-24" alt="" />
