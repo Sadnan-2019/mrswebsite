@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Landing from './Components/Landing/Landing';
 import Service from './Components/Service/Service';
 import Shape from './Components/Shape/Shape';
+import TopNav from './Components/TopNav/TopNav';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+        <TopNav />
 <Landing>
   
 
