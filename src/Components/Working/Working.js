@@ -3,10 +3,11 @@ import skach from "../../assets/skach.png";
 import creative from "../../assets/creativeprocess.png";
 import design from "../../assets/design&development.png";
 import final from "../../assets/FinalProduct.png";
+import SVG from "../SVG/SVG";
 
 const Working = () => {
   return (
-    <div>
+    <div className="py-10">
       <div
         className="bg-no-repeat	bg-cover py-12"
         style={{
@@ -14,11 +15,11 @@ const Working = () => {
         }}
       >
         <div className=" md:mx-16 lg:mx-24 mx-8 ">
-          <h2 className="text-3xl text-center py-12   font-bold poppins-b sm:text-4xl text-white">
+          <h2 className="text-3xl text-center  font-bold poppins-b sm:text-4xl text-white">
             Our Working Process
           </h2>
         </div>
-        <div className=" grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4  mx-10 gap-10    justify-items-center   ">
+        <div className=" grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4  mx-10 gap-10    justify-items-center py-12   ">
           <div
             className="  "
             // data-aos="flip-left"
@@ -107,7 +108,7 @@ const Working = () => {
               />
             </figure>
             <div className=" items-center text-center text-white p-4">
-              <p className="text-[20px]">Design & Development</p>
+              <p className="text-[20px]">Final Project</p>
               <p className="text-justify	text-[15px] poppins-t">
                 There is difference between taking physiotherapy at home & going
                 to a physiotherapy center.You save money of transport & waiting
@@ -116,7 +117,9 @@ const Working = () => {
             </div>
           </div>
         </div>
+     
       </div>
+   
     </div>
   );
 };

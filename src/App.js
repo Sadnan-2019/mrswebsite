@@ -38,7 +38,7 @@ function App() {
  <Service></Service>
  <Review></Review>
  <Working></Working>
- <SVG></SVG>
+ 
       <Footer></Footer>
     </div>
   );
