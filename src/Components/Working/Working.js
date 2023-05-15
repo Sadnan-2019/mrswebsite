@@ -10,7 +10,7 @@ const Working = () => {
   return (
     <div className="py-10">
       <div
-        className="bg-no-repeat	bg-cover py-12 working"
+        className="bg-no-repeat	bg-cover py-12  "
         style={{
             
           backgroundImage: `url(" https://i.ibb.co/vjYby3x/ANOTHERMRS.png")`,
