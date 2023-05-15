@@ -8,15 +8,15 @@ const SVG = () => {
           width="100%"
           height="100%"
           id="svg"
-          viewBox="0 0 1440 490"
+          viewBox="0 0 1440 300"
           xmlns="http://www.w3.org/2000/svg"
           class="transition duration-300 ease-in-out delay-150"
         >
            
           <defs>
             <linearGradient id="gradient" x1="38%" y1="1%" x2="62%" y2="99%">
-              <stop offset="5%" stop-color="white"></stop>
-              <stop offset="95%" stop-color="red"></stop>
+              <stop offset="5%" stop-color="#ab4059"></stop>
+              <stop offset="95%" stop-color="#38235D"></stop>
             </linearGradient>
           </defs>
           <path

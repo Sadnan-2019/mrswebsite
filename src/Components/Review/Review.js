@@ -3,15 +3,15 @@ import Swiper from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import SVG from "../SVG/SVG";
 const Review = () => {
   return (
     <div>
- 
-
       <div className="py-10">
+       
         <section class="bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D]  text-white ">
           <div class="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8">
-            <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:items-center lg:gap-x-16">
+            <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:items-center lg:gap-x-16 ">
               <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
                 <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
                   Don't just take our word for it...
@@ -73,9 +73,9 @@ const Review = () => {
               >
                 <div class="swiper-container !overflow-hidden">
                   <div class="swiper-wrapper">
-                    <div class="swiper-slide bg-gradient-to-r from-[#38235D] to-[#ab4059]">
-                      <blockquote class="flex h-full flex-col justify-between   p-12">
-                        <div>
+                    <div class="swiper-slide bg-gradient-to-r from-[#38235D] to-[#ab4059] shadow-3xl     bg-base-100     rounded-2xl">
+                      <blockquote class="flex h-full flex-col justify-between   p-12 ">
+                        <div className=" ">
                           <div class="flex gap-0.5 text-white">
                             <svg
                               class="h-5 w-5"
@@ -124,8 +124,9 @@ const Review = () => {
                           </div>
 
                           <div class="mt-4">
-                            <p class="text-2xl font-bold text-white sm:text-3xl">
-Rohim udinin                            </p>
+                            <p class="text-2xl font-bold text-white sm:text-3xl transition duration-300 ease-in-out delay-150">
+                              Rohim udinin{" "}
+                            </p>
 
                             <p class="mt-4 leading-relaxed text-white">
                               No, Rose, they are not breathing. And they have no
@@ -140,11 +141,9 @@ Rohim udinin                            </p>
                         <footer class="mt-8 text-sm text-white">
                           &mdash; Michael Scott
                         </footer>
-                        
+                        {/* <SVG></SVG> */}
                       </blockquote>
                     </div>
-
-                  
                   </div>
                 </div>
               </div>

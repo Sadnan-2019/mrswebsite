@@ -7,6 +7,7 @@ import digitalmarketing from "../../assets/social-media (1).png";
 import SEO2 from "../../assets/seo (1).png";
 import web from "../../assets/webdevelopment.png";
 import mobile from "../../assets/mobile-app.png";
+import content from "../../assets/content.png";
 import "./Service.css";
 const Service = () => {
   return (
@@ -21,6 +22,8 @@ const Service = () => {
           Our Service
         </h2>
       </div>
+      {/* <button class="my-button justify-items-center">Click me</button> */}
+
       <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center  py-10 ">
         <div
           data-aos="fade-right"
@@ -190,6 +193,36 @@ const Service = () => {
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">App Development</h2>
+              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+                Our fifteen employee-team works round the clock to serve the
+                community. We are ready to answer phone calls 24/7.We are open
+                for conversation listening to attendants complaints.We can
+                provide home service with caregiver even at mid night.
+              </p>
+              {/* <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div> */}
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          style={{ height: "400px" }}
+        >
+          <div className="       ">
+            <figure className=" rounded-lg image-container">
+              <img
+                src={content}
+                alt="Shoes"
+                className="rounded-xl p-4"
+                style={{ height: "100px" }}
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title">Content Writing</h2>
               <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open

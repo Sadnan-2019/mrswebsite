@@ -1,12 +1,13 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import SVG from "../SVG/SVG";
 
 const Footer = () => {
   return (
     <div className=" ">
     
-
+     
       <footer aria-label="Site Footer" class="bg-[#92468E]   ">
       {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -262,6 +263,7 @@ const Footer = () => {
                 </nav>
               </div>
             </div>
+           
           </div>
 
           <div class="mt-16 border-t border-gray-100 pt-8">
@@ -278,8 +280,10 @@ const Footer = () => {
                      </Link> */}
             </p>
           </div>
+          
         </div>
       </footer>
+       
     </div>
   );
 };

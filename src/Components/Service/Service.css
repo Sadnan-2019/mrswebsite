@@ -4,6 +4,33 @@
   background-color: red;
   transform: rotate(30deg);
 } */
+
+.my-button {
+  background: linear-gradient(90deg, #ff6c6c, #970c1afe);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.my-button:hover {
+  animation: gradientAnimation 3s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
  .card {
  
   background-color: white;

@@ -147,12 +147,15 @@ const Landing = () => {
                     </a>
                     {/* <button class="hover-button">Hover Me</button> */}
                   </div>
+
                   {/* <div class="shape"></div> */}
                 </div>
 
                 <div class="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container">
                   <img src={camera} alt="" />
                 </div>
+              
+
               </div>
 
               <div
