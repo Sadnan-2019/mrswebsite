@@ -4,13 +4,15 @@ import creative from "../../assets/creativeprocess.png";
 import design from "../../assets/design&development.png";
 import final from "../../assets/FinalProduct.png";
 import SVG from "../SVG/SVG";
+import "./Working.css"
 
 const Working = () => {
   return (
     <div className="py-10">
       <div
-        className="bg-no-repeat	bg-cover py-12"
+        className="bg-no-repeat	bg-cover py-12 working"
         style={{
+            
           backgroundImage: `url(" https://i.ibb.co/vjYby3x/ANOTHERMRS.png")`,
         }}
       >
@@ -31,7 +33,7 @@ const Working = () => {
               <img
                 src={skach}
                 alt="Shoes"
-                className=" mx-auto	  p-4  "
+                className=" mx-auto	workimg  p-4  "
                 style={{ height: "150px", borderRadius: "25px" }}
               />
             </figure>
@@ -55,7 +57,7 @@ const Working = () => {
               <img
                 src={creative}
                 alt="Shoes"
-                className="mx-auto	 	  p-4  "
+                className="mx-auto	 workimg	  p-4 hover:translate-y-(-2.5)  "
                 style={{ height: "150px", borderRadius: "25px" }}
               />
             </figure>
@@ -79,7 +81,7 @@ const Working = () => {
               <img
                 src={design}
                 alt="Shoes"
-                className=" mx-auto		  p-4  "
+                className=" mx-auto		workimg  p-4  "
                 style={{ height: "150px", borderRadius: "25px" }}
               />
             </figure>
@@ -103,7 +105,7 @@ const Working = () => {
               <img
                 src={final}
                 alt="Shoes"
-                className=" mx-auto		  p-4  "
+                className=" mx-auto		workimg  p-4  "
                 style={{ height: "150px", borderRadius: "25px" }}
               />
             </figure>

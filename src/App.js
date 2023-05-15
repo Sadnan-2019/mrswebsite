@@ -37,6 +37,7 @@ function App() {
  {/* <Shape></Shape> */}
  <Service></Service>
  <Review></Review>
+ {/* <SVG></SVG> */}
  <Working></Working>
  
       <Footer></Footer>
