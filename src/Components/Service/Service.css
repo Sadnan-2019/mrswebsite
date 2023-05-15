@@ -38,9 +38,9 @@
   transition: background-color 0.5s;
 }
 
-.card:hover {
+/* .card:hover {
   background: linear-gradient(to right, #38235D, #ab4059);
-}
+} */
 .diamond {
   /* width: 0;
   height: 0;
