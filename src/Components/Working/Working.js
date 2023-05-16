@@ -23,11 +23,11 @@ const Working = () => {
         </div>
         <div className=" grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4  mx-10 gap-10    justify-items-center py-12   ">
           <div
-            className="  "
+            className="    "
             // data-aos="flip-left"
             // data-aos-easing="ease-out-cubic"
             // data-aos-duration="2000"
-            style={{ height: "300px" }}
+            style={{ height: "350px" }}
           >
             <figure className="  	">
               <img

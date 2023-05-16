@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
-import camera from "../../assets/main-camera.png";
+import camera from "../../assets/camera.jpeg";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { FaPhoneVolume } from "react-icons/fa";
@@ -65,7 +65,7 @@ const Landing = () => {
       
         <Slider {...settings}>
           <div className=" ">
-            <section className="  blog h-auto landingone     bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white">
+            <section className="landingone  blog h-auto landingone     bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white">
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   {/* <div className="hidden lg:flex items-center gap-2   lg:bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px]  lg:border-gray-200 mb-5">
@@ -151,8 +151,8 @@ const Landing = () => {
                   {/* <div class="shape"></div> */}
                 </div>
 
-                <div class="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container">
-                  <img src={camera} alt="" />
+                <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+                  <img src={camera} alt="" className="rounded-full h-5/6 w-5/6 " />
                 </div>
               
 
