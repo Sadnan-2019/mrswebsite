@@ -51,7 +51,7 @@ const Working = () => {
             // data-aos="flip-left"
             // data-aos-easing="ease-out-cubic"
             // data-aos-duration="2000"
-            style={{ height: "300px" }}
+            style={{ height: "350px" }}
           >
             <figure className="   	">
               <img
@@ -75,7 +75,7 @@ const Working = () => {
             // data-aos="flip-left"
             // data-aos-easing="ease-out-cubic"
             // data-aos-duration="2000"
-            style={{ height: "300px" }}
+            style={{ height: "350px" }}
           >
             <figure className="  	">
               <img
@@ -99,7 +99,7 @@ const Working = () => {
             // data-aos="flip-left"
             // data-aos-easing="ease-out-cubic"
             // data-aos-duration="2000"
-            style={{ height: "300px" }}
+            style={{ height: "350px" }}
           >
             <figure className="  	">
               <img

@@ -9,6 +9,7 @@ import TopNav from './Components/TopNav/TopNav';
 import Review from './Components/Review/Review';
 import SVG from './Components/SVG/SVG';
 import Working from './Components/Working/Working';
+import Achievement from './Components/Working/Achievement/Achievement';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
  <Review></Review>
  {/* <SVG></SVG> */}
  <Working></Working>
+ <Achievement></Achievement>
  
       <Footer></Footer>
     </div>
