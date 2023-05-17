@@ -56,7 +56,18 @@ const Achievement = () => {
     }
     return (
         <div className='py-10'>
+       
             <div  className='achievment'>
+            <div
+        className=" "
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <h2 className="text-3xl text-center text-white py-10  font-bold poppins-b sm:text-4xl">
+          Our Achievement
+        </h2>
+      </div>
 
             <div
           className="grid grid-cols-1 lg:grid-cols-2 py-10 text-white   gap-10  mx-10 "
@@ -64,7 +75,7 @@ const Achievement = () => {
           data-aos-duration="1000"
         >
             <div className=''>
-            <img className="" alt='' src={achievement}/>
+            <img className="w-5/6 h-5/6" alt='' src={achievement}/>
             </div>
           <div className="    text-white successtext grid grid-cols-1 lg:grid-cols-2 py-10">
             <div className="stat">

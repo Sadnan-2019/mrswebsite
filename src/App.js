@@ -10,6 +10,7 @@ import Review from './Components/Review/Review';
 import SVG from './Components/SVG/SVG';
 import Working from './Components/Working/Working';
 import Achievement from './Components/Working/Achievement/Achievement';
+// import Parallax from './Components/Parallax/Parallax';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
  {/* <SVG></SVG> */}
  <Working></Working>
  <Achievement></Achievement>
+ {/* <Parallax></Parallax> */}
  
       <Footer></Footer>
     </div>
