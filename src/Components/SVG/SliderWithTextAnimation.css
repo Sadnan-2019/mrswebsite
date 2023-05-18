@@ -1,0 +1,11 @@
+.slide-text {
+    opacity: 0;
+    /* transition: opacity 0.5s; */
+    transition: opacity 0.8s, transform 0.8s;
+
+  }
+  
+  .animated {
+    opacity: 1;
+  }
+  

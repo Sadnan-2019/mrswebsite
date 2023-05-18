@@ -1,0 +1,13 @@
+.zoom-in-on-scroll {
+    opacity: 0;
+  }
+  
+  [data-aos='zoom-in'] {
+    opacity: 1;
+    transition: opacity 0.8s, transform 0.8s;
+  }
+  
+  [data-aos='zoom-in'].aos-animate {
+    transform: scale(1);
+  }
+  

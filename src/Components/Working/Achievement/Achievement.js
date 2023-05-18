@@ -2,6 +2,7 @@ import { useSpring,animated } from '@react-spring/web';
 import React, { useState } from 'react';
 import "./Achievement.css"
 import achievement from "../../../assets/achievment.png"
+import 'animate.css';
 
 const Achievement = () => {
 

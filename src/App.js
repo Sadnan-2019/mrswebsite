@@ -10,6 +10,10 @@ import Review from './Components/Review/Review';
 import SVG from './Components/SVG/SVG';
 import Working from './Components/Working/Working';
 import Achievement from './Components/Working/Achievement/Achievement';
+import ScrollingTime from './Components/SVG/ScrollingTime';
+import ScrollingContent from './Components/SVG/ScrollingContent';
+import ZoomInOnScroll from './Components/SVG/ZoomInOnScroll';
+import SliderWithTextAnimation from './Components/SVG/SliderWithTextAnimation';
 // import Parallax from './Components/Parallax/Parallax';
 
 function App() {
@@ -39,11 +43,15 @@ function App() {
  {/* <Shape></Shape> */}
  <Service></Service>
  <Review></Review>
- {/* <SVG></SVG> */}
+ 
  <Working></Working>
  <Achievement></Achievement>
+ <ZoomInOnScroll></ZoomInOnScroll>
+ <SliderWithTextAnimation></SliderWithTextAnimation>
+ {/* <SVG></SVG> */}
  {/* <Parallax></Parallax> */}
- 
+ {/* <ScrollingTime></ScrollingTime> */}
+ {/* <ScrollingContent></ScrollingContent> */}
       <Footer></Footer>
     </div>
   );

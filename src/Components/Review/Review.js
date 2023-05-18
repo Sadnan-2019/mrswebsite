@@ -3,6 +3,9 @@ import Swiper from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+// import 'animate.css';
+import "./Review.css"
+
 import SVG from "../SVG/SVG";
 const Review = () => {
   return (
@@ -66,12 +69,12 @@ const Review = () => {
 
               <div
                 class="-mx-6 lg:col-span-2 lg:mx-0 "
-                data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
-                data-aos-duration="500"
+                // data-aos="fade-left"
+                // data-aos-anchor="#example-anchor"
+                // data-aos-offset="500"
+                // data-aos-duration="500"
               >
-                <div class="swiper-container !overflow-hidden">
+                <div class="swiper-container zoom-in-on-scroll !overflow-hidden  " data-aos="zoom-in">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide bg-gradient-to-r from-[#38235D] to-[#ab4059] shadow-3xl     bg-base-100     rounded-2xl">
                       <blockquote class="flex h-full flex-col justify-between   p-12 ">
