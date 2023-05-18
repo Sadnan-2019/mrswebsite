@@ -19,13 +19,13 @@ const SliderWithTextAnimation = () => {
   return (
     <div>
       <Slider {...settings}>
-        <div>
-          <img src="slider-image-1.jpg zoom-in-on-scroll" alt="Slider 1" />
-          <h2 className={`slide-text zoom-in-on-scroll ${currentSlide === 0 ? 'animated' : ''}`} data-aos="zoom-in" >Text for Slide 1</h2>
+      <div>
+          <img src="slider-image-3.jpg" alt="Slider 3" />
+          <h2 className={`slide-text ${currentSlide === 0 ? 'animated' : ''}`}>Text for Slide 3</h2>
         </div>
         <div>
-          <img src="slider-image-2.jpg" alt="Slider 2" />
-          <h2 className={`slide-text zoom-in-on-scroll ${currentSlide === 1 ? 'animated' : ''}`} data-aos="zoom-in">Text for Slide 2</h2>
+          <img src="slider-image-3.jpg" alt="Slider 3" />
+          <h2 className={`slide-text ${currentSlide === 1 ? 'animated' : ''}`}>Text for Slide 3</h2>
         </div>
         <div>
           <img src="slider-image-3.jpg" alt="Slider 3" />

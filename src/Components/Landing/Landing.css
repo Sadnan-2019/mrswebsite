@@ -84,3 +84,29 @@
       ),
       url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/11/23/Pictures/themselves-recruitment-hindustan-november-preparing-different-exercise_d4520c4a-0d5c-11ea-8f6b-23ce1c606bc4.jpg");
   }
+
+  /* ////slider with text animation  */
+
+
+  .slide-text {
+    opacity: 0;
+    /* transition: opacity 0.5s; */
+    transition: opacity 0.8s, transform 0.8s;
+
+  }
+  
+  .animated {
+    opacity: 1;
+  }
+  .zoom-in-on-scroll {
+    opacity: 0;
+  }
+  
+  [data-aos='zoom-in'] {
+    opacity: 1;
+    transition: opacity 0.8s, transform 0.8s;
+  }
+  
+  [data-aos='zoom-in'].aos-animate {
+    transform: scale(1);
+  }

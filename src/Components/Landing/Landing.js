@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -11,6 +11,8 @@ import { Typewriter } from "react-simple-typewriter";
 
 import Nav from "../Nav/Nav";
 const Landing = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
   var settings = {
     dots: true,
     infinite: true,
@@ -19,7 +21,9 @@ const Landing = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     fade: true,
-
+    afterChange: (index) => {
+      setCurrentSlide(index);
+    },
     // autoplay:"true",
     autoplaySpeed: 5000,
     responsive: [
@@ -60,9 +64,8 @@ const Landing = () => {
   return (
     <div>
       <div className="   py-7   h-auto   landingtext">
-        
         <Nav className=" "></Nav>
-      
+
         <Slider {...settings}>
           <div className=" ">
             <section className="landingone  blog h-auto landingone     bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white">
@@ -74,14 +77,23 @@ const Landing = () => {
             </p>
             <p className='hidden lg:block text-sm '>Discover the easiest way to get our service!</p>
           </div> */}
-                  <p
+                  {/* <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
-                    style={{ lineHeight: "120%", color: "white" }}
                   >
                     Media Resource Solution
-                  </p>
+                  </p> */}
+                  <h2
+                    style={{ lineHeight: "120%", color: "white" }}
+                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left poppins-b ${
+                      currentSlide === 0 ? "animated" : ""
+                    }`}
+                     
+                  >
+                    {" "}
+                    Media Resource Solution
+                  </h2>
 
                   {/* <p
                   
@@ -152,10 +164,12 @@ const Landing = () => {
                 </div>
 
                 <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container ">
-                  <img src={camera} alt="" className="rounded-full h-5/6 w-5/6 " />
+                  <img
+                    src={camera}
+                    alt=""
+                    className="rounded-full h-5/6 w-5/6 "
+                  />
                 </div>
-              
-
               </div>
 
               <div
@@ -163,7 +177,7 @@ const Landing = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <svg
+                {/* <svg
                   className=""
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
@@ -173,7 +187,7 @@ const Landing = () => {
                     fill-opacity="50"
                     d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                   ></path>
-                </svg>
+                </svg> */}
               </div>
             </section>
           </div>
@@ -187,14 +201,16 @@ const Landing = () => {
             </p>
             <p className='hidden lg:block text-sm '>Discover the easiest way to get our service!</p>
           </div> */}
-                  <p
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
+                  <h2
                     style={{ lineHeight: "120%", color: "white" }}
+                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left  ${
+                      currentSlide === 1 ? "animated" : ""
+                    }`}
+                    
                   >
+                    {" "}
                     Media Resource Solution
-                  </p>
+                  </h2>
 
                   {/* <p
                   
@@ -265,10 +281,12 @@ const Landing = () => {
                 </div>
 
                 <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container ">
-                  <img src={camera} alt="" className="rounded-full h-5/6 w-5/6 " />
+                  <img
+                    src={camera}
+                    alt=""
+                    className="rounded-full h-5/6 w-5/6 "
+                  />
                 </div>
-              
-
               </div>
 
               <div
@@ -276,7 +294,7 @@ const Landing = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <svg
+                {/* <svg
                   className=""
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
@@ -286,7 +304,7 @@ const Landing = () => {
                     fill-opacity="50"
                     d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                   ></path>
-                </svg>
+                </svg> */}
               </div>
             </section>
           </div>
@@ -300,14 +318,16 @@ const Landing = () => {
             </p>
             <p className='hidden lg:block text-sm '>Discover the easiest way to get our service!</p>
           </div> */}
-                  <p
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
+                 <h2
                     style={{ lineHeight: "120%", color: "white" }}
+                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left poppins-b ${
+                      currentSlide === 2 ? "animated" : ""
+                    }`}
+                     
                   >
+                    {" "}
                     Media Resource Solution
-                  </p>
+                  </h2>
 
                   {/* <p
                   
@@ -378,13 +398,15 @@ const Landing = () => {
                 </div>
 
                 <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container ">
-                  <img src={camera} alt="" className="rounded-full h-5/6 w-5/6 " />
+                  <img
+                    src={camera}
+                    alt=""
+                    className="rounded-full h-5/6 w-5/6 "
+                  />
                 </div>
-              
-
               </div>
 
-              <div
+              {/* <div
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
@@ -400,11 +422,9 @@ const Landing = () => {
                     d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                   ></path>
                 </svg>
-              </div>
+              </div> */}
             </section>
           </div>
-           
-         
         </Slider>
       </div>
     </div>

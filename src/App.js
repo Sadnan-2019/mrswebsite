@@ -1,19 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import Nav from './Components/Nav/Nav';
-import Footer from './Components/Footer/Footer';
-import Landing from './Components/Landing/Landing';
-import Service from './Components/Service/Service';
-import Shape from './Components/Shape/Shape';
-import TopNav from './Components/TopNav/TopNav';
-import Review from './Components/Review/Review';
-import SVG from './Components/SVG/SVG';
-import Working from './Components/Working/Working';
-import Achievement from './Components/Working/Achievement/Achievement';
-import ScrollingTime from './Components/SVG/ScrollingTime';
-import ScrollingContent from './Components/SVG/ScrollingContent';
-import ZoomInOnScroll from './Components/SVG/ZoomInOnScroll';
-import SliderWithTextAnimation from './Components/SVG/SliderWithTextAnimation';
+import logo from "./logo.svg";
+import "./App.css";
+import Nav from "./Components/Nav/Nav";
+import Footer from "./Components/Footer/Footer";
+import Landing from "./Components/Landing/Landing";
+import Service from "./Components/Service/Service";
+import Shape from "./Components/Shape/Shape";
+import TopNav from "./Components/TopNav/TopNav";
+import Review from "./Components/Review/Review";
+import SVG from "./Components/SVG/SVG";
+import Working from "./Components/Working/Working";
+import Achievement from "./Components/Working/Achievement/Achievement";
+import ScrollingTime from "./Components/SVG/ScrollingTime";
+import ScrollingContent from "./Components/SVG/ScrollingContent";
+import ZoomInOnScroll from "./Components/SVG/ZoomInOnScroll";
+import SliderWithTextAnimation from "./Components/SVG/SliderWithTextAnimation";
 // import Parallax from './Components/Parallax/Parallax';
 
 function App() {
@@ -34,24 +34,20 @@ function App() {
           Learn React
         </a>
       </header> */}
-        <TopNav />
-<Landing>
-  
+      <TopNav />
+      <Landing></Landing>
+      {/* <Shape></Shape> */}
+      <Service></Service>
+      <Review></Review>
 
-
-</Landing>
- {/* <Shape></Shape> */}
- <Service></Service>
- <Review></Review>
- 
- <Working></Working>
- <Achievement></Achievement>
- <ZoomInOnScroll></ZoomInOnScroll>
- <SliderWithTextAnimation></SliderWithTextAnimation>
- {/* <SVG></SVG> */}
- {/* <Parallax></Parallax> */}
- {/* <ScrollingTime></ScrollingTime> */}
- {/* <ScrollingContent></ScrollingContent> */}
+      <Working></Working>
+      <Achievement></Achievement>
+      <ZoomInOnScroll></ZoomInOnScroll>
+      <SliderWithTextAnimation></SliderWithTextAnimation>
+      {/* <SVG></SVG> */}
+      {/* <Parallax></Parallax> */}
+      {/* <ScrollingTime></ScrollingTime> */}
+      {/* <ScrollingContent></ScrollingContent> */}
       <Footer></Footer>
     </div>
   );
