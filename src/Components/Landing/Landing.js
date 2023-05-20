@@ -24,7 +24,7 @@ const Landing = () => {
     afterChange: (index) => {
       setCurrentSlide(index);
     },
-    // autoplay:"true",
+    autoplay:"true",
     autoplaySpeed: 5000,
     responsive: [
       {
