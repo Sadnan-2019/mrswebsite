@@ -92,14 +92,37 @@
     opacity: 0;
     /* transition: opacity 0.5s; */
     /* transition: opacity 0.8s, transform 0.8s; */
-
   }
   
   .animated {
     opacity: 1;
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
+    /* animation: bounce;   */
+    animation: bounce-in-right 2s ease ;
+
+  animation-duration:1s;
+  /* animation: backInRight; */
+  /* animation: backInRight; */
+
+
+  /* animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both; */
+   
   }
+  @keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(2000px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-30px);
+    }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+
   .zoom-in-on-scroll {
     opacity: 0;
   }
