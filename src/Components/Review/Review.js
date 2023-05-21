@@ -3,7 +3,7 @@ import Swiper from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import 'animate.css';
+import 'animate.css';
 import "./Review.css"
 
 import SVG from "../SVG/SVG";

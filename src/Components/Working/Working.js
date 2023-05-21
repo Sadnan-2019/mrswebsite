@@ -5,6 +5,7 @@ import design from "../../assets/design&development.png";
 import final from "../../assets/FinalProduct.png";
 import SVG from "../SVG/SVG";
 import "./Working.css"
+import 'animate.css';
 
 const Working = () => {
   return (
@@ -21,7 +22,8 @@ const Working = () => {
             Our Working Process
           </h2>
         </div>
-        <div className=" grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4  mx-10 gap-10    justify-items-center py-12   ">
+        <div   data-aos="zoom-in"
+        className= "zoom-in-on-scroll  grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4  mx-10 gap-10    justify-items-center py-12  ">
           <div
             className="    "
             // data-aos="flip-left"

@@ -14,6 +14,20 @@ background-color: brown;
 
 } */
 
+.zoom-in-on-scroll {
+    opacity: 0;
+  }
+  
+  [data-aos='zoom-in'] {
+    opacity: 1;
+    transition: opacity 0.1s, transform 0.9s;
+    
+  }
+  
+  [data-aos='zoom-in'].aos-animate {
+    transform: scale(30);
+  }
+
 
 .scrolling-content {
     opacity: 0;

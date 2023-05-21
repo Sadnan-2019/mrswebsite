@@ -42,8 +42,8 @@ function App() {
 
       <Working></Working>
       <Achievement></Achievement>
-      <ZoomInOnScroll></ZoomInOnScroll>
-      <SliderWithTextAnimation></SliderWithTextAnimation>
+      {/* <ZoomInOnScroll></ZoomInOnScroll> */}
+      {/* <SliderWithTextAnimation></SliderWithTextAnimation> */}
       {/* <SVG></SVG> */}
       {/* <Parallax></Parallax> */}
       {/* <ScrollingTime></ScrollingTime> */}

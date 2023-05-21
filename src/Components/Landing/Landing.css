@@ -1,12 +1,8 @@
 .slick-prev:before,
 .slick-next:before {
   color: rgb(29, 7, 94);
-  
 }
 
- 
-
- 
 .hover-button {
   /* border: none; */
   border-radius: 50px; /* Adjust the border radius to make it more or less rounded */
@@ -23,7 +19,6 @@
   transform: rotate(360deg); /* Apply the 360-degree rotation on hover */
   animation: rotate 10s infinite linear;
 }
-
 
 /* .rotation-container {
   width: 200px;  
@@ -51,89 +46,113 @@
   }
 }
 
-
 .landingone {
-    background-color: linear-gradient(
-        to left,
-        rgba(1, 106, 134, 0.521),
-        rgba(3, 29, 34, 0.9)
-      ),
-      /* url("https://i.ibb.co/QP33199/slider1.jpg"); */
-  }
-  .landingtwo {
-    background-image: linear-gradient(
-        to left,
-        rgba(1, 106, 134, 0.521),
-        rgba(3, 29, 34, 0.9)
-      ),
-      url("https://i.ibb.co/2YtW38S/1s.png");
-  }
-  .landingthree {
-    background-image: linear-gradient(
-        to left,
-        rgba(1, 106, 134, 0.221),
-        rgba(3, 29, 34, 0.9)
-      ),
-      url("https://i.ibb.co/XsTC1Gz/wave.jpg");
-  }
-  .landingfour {
-    background-image: linear-gradient(
-        to left,
-        rgba(3, 19, 24, 0.521),
-        rgba(3, 29, 34, 0.9)
-      ),
-      url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/11/23/Pictures/themselves-recruitment-hindustan-november-preparing-different-exercise_d4520c4a-0d5c-11ea-8f6b-23ce1c606bc4.jpg");
-  }
+  background-color: linear-gradient(
+    to left,
+    rgba(1, 106, 134, 0.521),
+    rgba(3, 29, 34, 0.9)
+  );
+  /* url("https://i.ibb.co/QP33199/slider1.jpg"); */
+}
+.landingtwo {
+  background-image: linear-gradient(
+      to left,
+      rgba(1, 106, 134, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("https://i.ibb.co/2YtW38S/1s.png");
+}
+.landingthree {
+  background-image: linear-gradient(
+      to left,
+      rgba(1, 106, 134, 0.221),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("https://i.ibb.co/XsTC1Gz/wave.jpg");
+}
+.landingfour {
+  background-image: linear-gradient(
+      to left,
+      rgba(3, 19, 24, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/11/23/Pictures/themselves-recruitment-hindustan-november-preparing-different-exercise_d4520c4a-0d5c-11ea-8f6b-23ce1c606bc4.jpg");
+}
 
-  /* ////slider with text animation  */
+/* ////slider with text animation  */
 
+.slide-text {
+  opacity: 0;
+ 
+}
 
-  .slide-text {
+.animated {
+  opacity: 1;
+
+  animation: bounce-in-right 2s ease;
+
+  animation-duration: 1s;
+}
+@keyframes bounce-in-right {
+  0% {
     opacity: 0;
-    /* transition: opacity 0.5s; */
-    /* transition: opacity 0.8s, transform 0.8s; */
+    transform: translateX(2000px);
   }
-  
-  .animated {
+  60% {
     opacity: 1;
-    /* animation: bounce;   */
-    animation: bounce-in-right 2s ease ;
-
-  animation-duration:1s;
-  /* animation: backInRight; */
-  /* animation: backInRight; */
-
-
-  /* animation-duration: 1s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: both; */
-   
+    transform: translateX(-30px);
   }
-  @keyframes bounce-in-right {
-    0% {
-      opacity: 0;
-      transform: translateX(2000px);
-    }
-    60% {
-      opacity: 1;
-      transform: translateX(-30px);
-    }
-    80% { transform: translateX(10px); }
-    100% { transform: translateX(0); }
+  80% {
+    transform: translateX(10px);
   }
+  100% {
+    transform: translateX(0);
+  }
+}
 
 
-  .zoom-in-on-scroll {
+
+.zoom-in-on-scroll {
+  opacity: 0;
+}
+
+[data-aos="zoom-in"] {
+  opacity: 1;
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+[data-aos="zoom-in"].aos-animate {
+  transform: scale(1);
+}
+
+
+/* /////img  */
+
+.slide-img {
+  opacity: 0;
+ 
+}
+
+.animated-img {
+  opacity: 1;
+
+  animation: bounce-in-left 2s ease;
+
+  animation-duration: 1s;
+}
+@keyframes bounce-in-left {
+  0% {
     opacity: 0;
+    transform: translateX(2000px);
   }
-  
-  [data-aos='zoom-in'] {
+  60% {
     opacity: 1;
-    transition: opacity 0.8s, transform 0.8s;
+    transform: translateX(-30px);
   }
-  
-  [data-aos='zoom-in'].aos-animate {
-    transform: scale(1);
+  80% {
+    transform: translateX(10px);
   }
-
-  
+  100% {
+    transform: translateX(0);
+  }
+}
