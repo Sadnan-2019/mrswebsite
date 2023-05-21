@@ -73,7 +73,7 @@ const Landing = () => {
         <Slider {...settings}>
           <div className=" ">
             <section className="landingone  blog h-auto landingone     bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white">
-              <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
+            <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   {/* <div className="hidden lg:flex items-center gap-2   lg:bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px]  lg:border-gray-200 mb-5">
             <p className="hidden lg:block px-2 py-[2px] text-white lg:rounded-full  " style={{backgroundColor: "#453364" }}>
@@ -81,16 +81,9 @@ const Landing = () => {
             </p>
             <p className='hidden lg:block text-sm '>Discover the easiest way to get our service!</p>
           </div> */}
-                  {/* <p
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
-                  >
-                    Media Resource Solution
-                  </p> */}
                   <h2
                     style={{ lineHeight: "120%", color: "white" }}
-                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left poppins-b ${
+                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left  ${
                       currentSlide === 0 ? "animated" : ""
                     }`}
                   >
@@ -166,14 +159,11 @@ const Landing = () => {
                   {/* <div class="shape"></div> */}
                 </div>
 
-                <div>
+                <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container ">
                   <img
                     src={camera}
                     alt=""
-                    // className=" "
-                    className={`slide-img   sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2  rounded-full h-5/6 w-5/6 lg:mt-0 ${
-                      currentSlideTwo === 0 ? "animated-img" : ""
-                    }`}
+                    className="rounded-full h-5/6 w-5/6 "
                   />
                 </div>
               </div>
