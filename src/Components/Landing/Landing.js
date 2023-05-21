@@ -255,13 +255,18 @@ const Landing = () => {
                   </div>
 
                   <div
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
+                    // data-aos="fade-up"
+                    // data-aos-duration="3000"
                     className="flex  gap-4 mt-10 text-center"
                   >
                     <a
-                      className=" hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white "
+                      
+                   
                       href="/"
+                      className={`slide-text   hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white   ${
+                        currentSlide === 1 ? "animated" : ""
+                      }`}
+
                     >
                       <span className="text-sm font-medium">
                         {" "}
