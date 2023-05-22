@@ -173,7 +173,7 @@ const Landing = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                {/* <svg
+                <svg
                   className=""
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
@@ -183,7 +183,7 @@ const Landing = () => {
                     fill-opacity="50"
                     d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                   ></path>
-                </svg> */}
+                </svg>
               </div>
             </section>
           </div>
@@ -294,7 +294,7 @@ const Landing = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                {/* <svg
+                <svg
                   className=""
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
@@ -304,9 +304,12 @@ const Landing = () => {
                     fill-opacity="50"
                     d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                   ></path>
-                </svg> */}
+                </svg>
               </div>
             </section>
+
+
+
           </div>
           <div className=" ">
             <section className="landingone  blog h-auto landingone     bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white">
@@ -405,7 +408,7 @@ const Landing = () => {
                 </div>
               </div>
 
-              {/* <div
+              <div
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
@@ -421,7 +424,7 @@ const Landing = () => {
                     d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                   ></path>
                 </svg>
-              </div> */}
+              </div>
             </section>
           </div>
         </Slider>

@@ -1,19 +1,23 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Nav from "./Components/Nav/Nav";
+// import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
-import Landing from "./Components/Landing/Landing";
-import Service from "./Components/Service/Service";
-import Shape from "./Components/Shape/Shape";
+// import Landing from "./Components/Landing/Landing";
+// import Service from "./Components/Service/Service";
+// import Shape from "./Components/Shape/Shape";
 import TopNav from "./Components/TopNav/TopNav";
-import Review from "./Components/Review/Review";
+// import Review from "./Components/Review/Review";
 import SVG from "./Components/SVG/SVG";
-import Working from "./Components/Working/Working";
-import Achievement from "./Components/Working/Achievement/Achievement";
-import ScrollingTime from "./Components/SVG/ScrollingTime";
-import ScrollingContent from "./Components/SVG/ScrollingContent";
-import ZoomInOnScroll from "./Components/SVG/ZoomInOnScroll";
-import SliderWithTextAnimation from "./Components/SVG/SliderWithTextAnimation";
+// import Working from "./Components/Working/Working";
+// import Achievement from "./Components/Working/Achievement/Achievement";
+// import ScrollingTime from "./Components/SVG/ScrollingTime";
+// import ScrollingContent from "./Components/SVG/ScrollingContent";
+// import ZoomInOnScroll from "./Components/SVG/ZoomInOnScroll";
+// import SliderWithTextAnimation from "./Components/SVG/SliderWithTextAnimation";
+import { Route, Routes } from "react-router-dom";
+import NewsMedia from "./Components/NewsMedia/NewsMedia";
+import Home from "./Components/Home/Home";
+import Nav from "./Components/Nav/Nav";
 // import Parallax from './Components/Parallax/Parallax';
 
 function App() {
@@ -35,13 +39,19 @@ function App() {
         </a>
       </header> */}
       <TopNav />
-      <Landing></Landing>
-      {/* <Shape></Shape> */}
-      <Service></Service>
-      <Review></Review>
+      {/* <Nav></Nav> */}
+      
 
-      <Working></Working>
-      <Achievement></Achievement>
+      <Routes>
+      <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        
+        <Route path="/news-media" element={<NewsMedia />}></Route>
+        {/* <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
+        <Route path="/manualtherapy" element={<ManualTherapy />}></Route>
+        <Route path="/sports-injuries" element={<SportsInjuries />}></Route>
+        <Route path="/rehabilitation" element={<Rehabilitation />}></Route> */}
+        </Routes>
       {/* <ZoomInOnScroll></ZoomInOnScroll> */}
       {/* <SliderWithTextAnimation></SliderWithTextAnimation> */}
       {/* <SVG></SVG> */}
