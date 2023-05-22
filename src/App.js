@@ -18,6 +18,7 @@ import { Route, Routes } from "react-router-dom";
 import NewsMedia from "./Components/NewsMedia/NewsMedia";
 import Home from "./Components/Home/Home";
 import Nav from "./Components/Nav/Nav";
+import Landing from "./Components/Landing/Landing";
 // import Parallax from './Components/Parallax/Parallax';
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
       </header> */}
       <TopNav />
       {/* <Nav></Nav> */}
-      
+      {/* <Landing></Landing> */}
 
       <Routes>
       <Route path="/" element={<Home />}></Route>
