@@ -274,7 +274,7 @@ const Review = () => {
                         </svg>
                       </button>
 
-                      <button class="next-button rounded-full border border-white-600 p-3 text-white hover:bg-[#92468E] hover:text-white">
+                      <button class=" next-button rounded-full border border-white-600 p-3 text-white hover:bg-[#92468E] hover:text-white">
                         <span class="sr-only">Next Slide</span>
                         <svg
                           class="h-5 w-5 rtl:rotate-180"
