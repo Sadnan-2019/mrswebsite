@@ -69,10 +69,7 @@ const Review = () => {
 
               <div
                 class="-mx-6 lg:col-span-2 lg:mx-0 "
-                // data-aos="fade-left"
-                // data-aos-anchor="#example-anchor"
-                // data-aos-offset="500"
-                // data-aos-duration="500"
+                 
               >
                 <div class="swiper-container zoom-in-on-scroll !overflow-hidden  " data-aos="zoom-in">
                   <div class="swiper-wrapper">
@@ -144,7 +141,7 @@ const Review = () => {
                         <footer class="mt-8 text-sm text-white">
                           &mdash; Michael Scott
                         </footer>
-                        {/* <SVG></SVG> */}
+                        
                       </blockquote>
                     </div>
                   </div>
