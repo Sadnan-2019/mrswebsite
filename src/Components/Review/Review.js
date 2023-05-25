@@ -257,8 +257,7 @@ const Review = () => {
 
                     <div class="hidden lg:mt-8 lg:flex lg:gap-4">
                       <button class="prev-button rounded-full border border-white-600 p-3 text-white hover:bg-[#92468E] hover:text-white">
-                        <span class="sr-only">Previous Slide</span>
-                        <svg
+                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -275,8 +274,7 @@ const Review = () => {
                       </button>
 
                       <button class=" next-button rounded-full border border-white-600 p-3 text-white hover:bg-[#92468E] hover:text-white">
-                        <span class="sr-only">Next Slide</span>
-                        <svg
+                         <svg
                           class="h-5 w-5 rtl:rotate-180"
                           fill="none"
                           stroke="currentColor"

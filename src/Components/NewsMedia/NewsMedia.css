@@ -1,0 +1,20 @@
+/* .media{
+    background-color: linear-gradient(
+        to left,
+        rgba(1, 106, 134, 0.521),
+        rgba(3, 29, 34, 0.9)
+      ),
+      url("../../assets/MEDIATWO.jpg");
+
+} */
+
+.media {
+    background-image: linear-gradient(
+        to left,
+        rgba(17, 191, 239, 0.521),
+        rgba(3, 29, 34, 0.9)
+      ),
+      url("../../assets/MEDIAONE.jpeg");
+  }
+
+ 
