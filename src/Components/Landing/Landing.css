@@ -60,7 +60,7 @@
       rgba(40, 83, 95, 0.521),
       rgba(3, 29, 34, 0.9)
     ),
-    url("../../assets/landingfive.avif");
+    url("../../assets/landingsix.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,10 +68,21 @@
   background-image: 
   linear-gradient(
       to left,
-      rgba(40, 83, 95, 0.521),
-      rgba(3, 29, 34, 0.9)
+      rgba(154, 143, 213, 0.01),
+      rgba(0, 9, 10, 0.9)
     ),
     url("../../assets/landingthree.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landingthree {
+  background-image: 
+  linear-gradient(
+      to left,
+      rgba(154, 143, 213, 0.01),
+      rgba(0, 9, 10, 0.9)
+    ),
+    url("../../assets/landingseven.avif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -81,7 +92,9 @@
       rgba(1, 106, 134, 0.221),
       rgba(3, 29, 34, 0.9)
     ),
-    url("https://i.ibb.co/XsTC1Gz/wave.jpg");
+    url("../../assets/landingseven.avif");
+     background-repeat: no-repeat;
+    background-size: cover;
 }
 .landingfour {
   background-image: linear-gradient(
