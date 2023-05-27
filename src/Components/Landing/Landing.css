@@ -89,10 +89,10 @@
 .landingthree {
   background-image: linear-gradient(
       to left,
-      rgba(1, 106, 134, 0.221),
+      rgba(72, 90, 95, 0.221),
       rgba(3, 29, 34, 0.9)
     ),
-    url("../../assets/landingseven.avif");
+    url("../../assets/landingnine.jpg");
      background-repeat: no-repeat;
     background-size: cover;
 }
