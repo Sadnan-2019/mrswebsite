@@ -46,21 +46,34 @@
   }
 }
 
-.landingone {
+/* .landingtwo {
   background-color: linear-gradient(
     to left,
     rgba(1, 106, 134, 0.521),
     rgba(3, 29, 34, 0.9)
-  );
-  /* url("https://i.ibb.co/QP33199/slider1.jpg"); */
-}
-.landingtwo {
+  ),
+  url("../../assets/landingfive.avif");
+} */
+.landingone {
   background-image: linear-gradient(
       to left,
-      rgba(1, 106, 134, 0.521),
+      rgba(40, 83, 95, 0.521),
       rgba(3, 29, 34, 0.9)
     ),
-    url("https://i.ibb.co/2YtW38S/1s.png");
+    url("../../assets/landingfive.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landingtwo {
+  background-image: 
+  linear-gradient(
+      to left,
+      rgba(40, 83, 95, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("../../assets/landingthree.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .landingthree {
   background-image: linear-gradient(

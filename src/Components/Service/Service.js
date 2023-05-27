@@ -26,9 +26,9 @@ const Service = () => {
 
       <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center  py-10 ">
         <div
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-right"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
@@ -56,9 +56,9 @@ const Service = () => {
           </div>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-up"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
@@ -86,9 +86,9 @@ const Service = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-left"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
@@ -116,9 +116,9 @@ const Service = () => {
           </div>
         </div>
         <div
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-right"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
@@ -146,9 +146,9 @@ const Service = () => {
           </div>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-up"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
@@ -176,9 +176,9 @@ const Service = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-left"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
@@ -206,9 +206,9 @@ const Service = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-left"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >

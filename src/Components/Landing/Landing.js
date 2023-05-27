@@ -72,8 +72,9 @@ const Landing = () => {
 
         <Slider {...settings}>
           
+        
           <div className=" ">
-            <section className="landingone  blog h-auto landingone     bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white">
+            <section className="landingone  blog h-auto       shadow-xl  text-white">
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   <h2
@@ -83,7 +84,7 @@ const Landing = () => {
                     }`}
                   >
                     {" "}
-                    Media Resource Solution First
+                    Media Resource Solution Second
                   </h2>
 
                   <h1
@@ -137,13 +138,13 @@ const Landing = () => {
                   </div>
                 </div>
 
-                <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container ">
+                {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
                   <img
                     src={camera}
                     alt=""
                     className="rounded-full h-5/6 w-5/6 "
                   />
-                </div>
+                </div> */}
               </div>
 
               <div
@@ -166,7 +167,7 @@ const Landing = () => {
             </section>
           </div>
           <div className=" ">
-            <section className="landingone  blog h-auto landingone     bg-gradient-to-r from-[#92468E] to-[#38235D] shadow-xl  text-white">
+            <section className="landingtwo  blog h-auto       shadow-xl  text-white">
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   <h2
@@ -230,13 +231,13 @@ const Landing = () => {
                   </div>
                 </div>
 
-                <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 rotation-container ">
+                {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
                   <img
                     src={camera}
                     alt=""
                     className="rounded-full h-5/6 w-5/6 "
                   />
-                </div>
+                </div> */}
               </div>
 
               <div
