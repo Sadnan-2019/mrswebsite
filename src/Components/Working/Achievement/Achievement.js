@@ -134,7 +134,13 @@ const Achievement = () => {
             </div> */}
           </div>
         </div>
+        <div className=""
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >
         <SVG></SVG>
+        </div>
       </div>
     </div>
   );

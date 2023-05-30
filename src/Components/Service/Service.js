@@ -259,7 +259,9 @@ const Service = () => {
           class="transition-all duration-300 ease-in-out delay-150 path-0"
         ></path>
       </svg> */}
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" 
+      
+      >
         <path
           fill="white"
           fill-opacity="50"

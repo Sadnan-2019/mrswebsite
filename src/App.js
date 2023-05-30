@@ -13,12 +13,14 @@ import SVG from "./Components/SVG/SVG";
 // import ScrollingTime from "./Components/SVG/ScrollingTime";
 // import ScrollingContent from "./Components/SVG/ScrollingContent";
 // import ZoomInOnScroll from "./Components/SVG/ZoomInOnScroll";
-// import SliderWithTextAnimation from "./Components/SVG/SliderWithTextAnimation";
+import SliderWithTextAnimation from "./Components/SVG/SliderWithTextAnimation";
 import { Route, Routes } from "react-router-dom";
 import NewsMedia from "./Components/NewsMedia/NewsMedia";
 import Home from "./Components/Home/Home";
 import Nav from "./Components/Nav/Nav";
 import Landing from "./Components/Landing/Landing";
+import ScrollingContent from "./Components/SVG/ScrollingContent";
+import SliderWithFadeInTextAnimation from "./Components/SVG/SliderWithFadeInTextAnimation";
 // import Parallax from './Components/Parallax/Parallax';
 
 function App() {
@@ -54,7 +56,8 @@ function App() {
         <Route path="/rehabilitation" element={<Rehabilitation />}></Route> */}
         </Routes>
       {/* <ZoomInOnScroll></ZoomInOnScroll> */}
-      {/* <SliderWithTextAnimation></SliderWithTextAnimation> */}
+      {/* <SliderWithTextAnimation></SliderWithTextAnimation>
+      <SliderWithFadeInTextAnimation></SliderWithFadeInTextAnimation> */}
       {/* <SVG></SVG> */}
       {/* <Parallax></Parallax> */}
       {/* <ScrollingTime></ScrollingTime> */}
