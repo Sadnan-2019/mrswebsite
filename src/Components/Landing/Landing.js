@@ -92,20 +92,7 @@ const Landing = () => {
                     style={{ lineHeight: "120%", color: "white" }}
                   >
                     First ever one-stop high-quality media resource solution at your doorstep{" "}
-                    {/* <span className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ">
-                      <Typewriter
-                        words={["  media resource solution at your doorstep"]}
-                        loop={true}
-                        cursor
-                        cursorStyle="_"
-                        typeSpeed={70}
-                        deleteSpeed={50}
-                        delaySpeed={1000}
-                        cursorBlinking={true}
-                        onLoopDone={handleDone}
-                        onType={handleType}
-                      />
-                    </span> */}
+                    
                   </h1>
 
                   <div className="flex items-center mt-2 font-bold">
