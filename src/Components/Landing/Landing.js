@@ -71,8 +71,6 @@ const Landing = () => {
         <Nav className=" "></Nav>
 
         <Slider {...settings}>
-          
-        
           <div className=" ">
             <section className="landingone  blog h-auto       shadow-xl  text-white">
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
@@ -84,15 +82,15 @@ const Landing = () => {
                     }`}
                   >
                     {" "}
-                    Media Resource Solution Second
+                    WE ARE INFLUENCER MARKETING
                   </h2>
 
                   <h1
                     className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                     style={{ lineHeight: "120%", color: "white" }}
                   >
-                    First ever one-stop high-quality media resource solution at your doorstep{" "}
-                    
+                    Strategy and execution from the company that launched the
+                    industry.{" "}
                   </h1>
 
                   <div className="flex items-center mt-2 font-bold">
@@ -171,7 +169,8 @@ const Landing = () => {
                     className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                     style={{ lineHeight: "120%", color: "white" }}
                   >
-                    First ever one-stop high-quality media resource solution at your doorstep{" "}
+                    First ever one-stop high-quality media resource solution at
+                    your doorstep{" "}
                     {/* <span className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ">
                       <Typewriter
                         words={["  media resource solution at your doorstep"]}
@@ -264,7 +263,8 @@ const Landing = () => {
                     className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                     style={{ lineHeight: "120%", color: "white" }}
                   >
-                    First ever one-stop high-quality media resource solution at your doorstep{" "}
+                    First ever one-stop high-quality media resource solution at
+                    your doorstep{" "}
                     {/* <span className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ">
                       <Typewriter
                         words={["  media resource solution at your doorstep"]}
@@ -339,7 +339,6 @@ const Landing = () => {
               </div>
             </section>
           </div>
-          
         </Slider>
       </div>
     </div>
