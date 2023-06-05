@@ -5,6 +5,7 @@ import Review from '../Review/Review';
 import Working from '../Working/Working';
 import Achievement from '../Working/Achievement/Achievement';
 import SVG from '../SVG/SVG';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -16,6 +17,8 @@ const Home = () => {
 
       <Working></Working>
       <Achievement></Achievement>
+
+    <Contact></Contact>
      
         </div>
     );
