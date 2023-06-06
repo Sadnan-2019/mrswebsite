@@ -76,13 +76,13 @@ const Landing = () => {
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   <h2
-                    style={{ lineHeight: "120%",  }}
+                    style={{ lineHeight: "120%" }}
                     className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600   ${
                       currentSlide === 0 ? "animated" : ""
                     }`}
                   >
                     {" "}
-                    WE ARE INFLUENCER MARKETING
+                    WE ARE INFLUENCER MARKETING.
                   </h2>
 
                   <h1
@@ -156,21 +156,20 @@ const Landing = () => {
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   <h2
-                    style={{ lineHeight: "120%", color: "white" }}
-                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left  ${
+                    style={{ lineHeight: "120%" }}
+                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left  text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ${
                       currentSlide === 1 ? "animated" : ""
                     }`}
                   >
                     {" "}
-                    Media Resource Solution Second
+                    UNMATCHED EXPERIENCE.
                   </h2>
 
                   <h1
                     className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                     style={{ lineHeight: "120%", color: "white" }}
                   >
-                    First ever one-stop high-quality media resource solution at
-                    your doorstep{" "}
+                    Industry leading results and next-gen technology.
                     {/* <span className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t   ">
                       <Typewriter
                         words={["  media resource solution at your doorstep"]}
@@ -250,13 +249,13 @@ const Landing = () => {
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-2 order-1   lg:mt-0">
                   <h2
-                    style={{ lineHeight: "120%", color: "white" }}
-                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left  ${
+                    style={{ lineHeight: "120%" }}
+                    className={`slide-text  md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  ${
                       currentSlide === 2 ? "animated" : ""
                     }`}
                   >
                     {" "}
-                    Media Resource Solution Thired
+                    GLOBAL RESOURCES. LOCAL EXPERTISE.
                   </h2>
 
                   <h1
