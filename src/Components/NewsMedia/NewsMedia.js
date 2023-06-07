@@ -41,7 +41,7 @@ const NewsMedia = () => {
           </div>
         </div> */}
 
-<div class="container  my-12 mx-auto md:px-6">
+<div class="container   mx-auto md:px-6">
   {/* <!-- Section: Design Block --> */}
   <section class="mb-32 text-center md:text-left">
     <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2>
