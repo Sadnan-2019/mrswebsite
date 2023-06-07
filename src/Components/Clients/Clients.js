@@ -1,21 +1,9 @@
 import React from 'react';
 import Marquee from "react-fast-marquee";
 import popular from "../../assets/hospital/popular.png";
-import universal from "../../assets/hospital/universal.png";
-import labaidcardiac from "../../assets/hospital/labaidcardiac.png";
-import labaidspeacial from "../../assets/hospital/labaidspeacial.png";
-import labaidcanser from "../../assets/hospital/labaidcanser.png";
-import greenlife from "../../assets/hospital/greenlife.png";
-import anwarkhan from "../../assets/hospital/anwarkhan.png";
-import evercare from "../../assets/hospital/evercare.png";
-import united from "../../assets/hospital/united.png";
-import ibnesina from "../../assets/hospital/ibnesina.png";
-import bangladeshspeacial from "../../assets/hospital/bangladeshspeacial.png";
-import impulse from "../../assets/hospital/impulse.png";
-import shikdar from "../../assets/hospital/shikdar.png";
-import samorita from "../../assets/hospital/samorita.png";
-import asgorali from "../../assets/hospital/asgorali.png";
-import prime from "../../assets/hospital/prime.png";
+import universal from "../../assets/logosub.png";
+import universal2 from "../../assets/logostatecollege.jpg";
+ 
 
 const Clients = () => {
     return (
@@ -29,120 +17,24 @@ const Clients = () => {
             style={{ backgroundColor: "#453364" }}
           ></h1>
       </div>
-      <Marquee   gradientColor={false} speed={80} gradient={false} play={true}>
+      <Marquee className='bg-gradient-to-r from-purple-400 to-pink-600'  gradientColor={false} speed={80} gradient={false} play={true}>
         <div className="  	 	 mx-10">
-          <img
-            src={popular}
-            alt="Shoes"
-            className="  "
-          />
-        </div>
-        <div className="       	  mx-10">
           <img
             src={universal}
             alt="Shoes"
-            className="  w-52    "
+            className=" w-32   "
           />
         </div>
-        <div className="     	 mx-10 ">
+        <div     className="       	  mx-10">
           <img
-            src={labaidcardiac}
+            src={universal2}
             alt="Shoes"
-            className="      "
+            className=" rounded-full  w-20   "
           />
         </div>
-        <div className="     	 mx-10 ">
-          <img
-            src={labaidspeacial}
-            alt="Shoes"
-            className="      "
-          />
-        </div>
-        <div className="     	 mx-10 ">
-          <img
-            src={labaidcanser}
-            alt="Shoes"
-            className="      "
-          />
-        </div>
-        <div className="      	 mx-10 ">
-          <img
-            src={greenlife}
-            alt="Shoes"
-            className="      "
-          />
-        </div>
-        <div className="     	 mx-10 ">
-          <img
-            src={anwarkhan}
-            alt="Shoes"
-            className="      "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={evercare}
-            alt="Shoes"
-            className=" w-52       "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={united}
-            alt="Shoes"
-            className=" w-52       "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={ibnesina}
-            alt="Shoes"
-            className=" w-52       "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={bangladeshspeacial}
-            alt="Shoes"
-            className=" w-52       "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={impulse}
-            alt="Shoes"
-            className=" w-52       "
-          />
-        </div>
+       
         
-        <div className=" 	 mx-10     ">
-          <img
-            src={shikdar}
-            alt="Shoes"
-            className=" w-42       "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={samorita}
-            alt="Shoes"
-            className=" w-42       "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={asgorali}
-            alt="Shoes"
-            className=" w-42       "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={prime}
-            alt="Shoes"
-            className=" w-42       "
-          />
-        </div>
+      
       
 
       </Marquee>
