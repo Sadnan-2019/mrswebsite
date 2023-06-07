@@ -6,6 +6,7 @@ import Working from '../Working/Working';
 import Achievement from '../Working/Achievement/Achievement';
 import SVG from '../SVG/SVG';
 import Contact from '../Contact/Contact';
+import Clients from '../Clients/Clients';
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
       {/* <Shape></Shape> */}
       <Service></Service>
       <Review></Review>
-
+<Clients></Clients>
       <Working></Working>
       <Achievement></Achievement>
 
