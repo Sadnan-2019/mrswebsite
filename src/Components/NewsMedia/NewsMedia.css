@@ -19,3 +19,9 @@
   }
 
  
+  .zoom:hover img {
+    transform: scale(1.1);
+  }
+ 
+
+ 
