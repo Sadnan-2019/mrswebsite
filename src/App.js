@@ -21,6 +21,7 @@ import Nav from "./Components/Nav/Nav";
 import Landing from "./Components/Landing/Landing";
 import ScrollingContent from "./Components/SVG/ScrollingContent";
 import SliderWithFadeInTextAnimation from "./Components/SVG/SliderWithFadeInTextAnimation";
+import NewNav from "./Components/Nav/NewNav";
 // import Parallax from './Components/Parallax/Parallax';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         </a>
       </header> */}
       <TopNav />
+      {/* <NewNav></NewNav> */}
       {/* <Nav></Nav> */}
       {/* <Landing></Landing> */}
 

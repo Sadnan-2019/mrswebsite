@@ -4,12 +4,14 @@ import mediaone from "../../assets/MEDIAONE.jpeg";
 import mediatwo from "../../assets/MEDIATWO.jpg";
 import mediathree from "../../assets/MEDIATHREE.jpg";
 import "./NewsMedia.css";
+import NewsMediaLanding from "./NewsMediaLanding";
 
 const NewsMedia = () => {
   return (
     <div>
+     
       <Nav className=" "></Nav>
-
+      <NewsMediaLanding></NewsMediaLanding>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 mx-4  items-center justify-items-center">
         {/* <div className="  w-full h-screen   items-center justify-items-center bg-cover bg-no-repeat media">
           <div className=" mt-[337px] ml-[40px] items-center justify-items-center                         ">
