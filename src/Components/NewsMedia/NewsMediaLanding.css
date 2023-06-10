@@ -1,0 +1,10 @@
+.newslanding{
+    background-image: linear-gradient(
+      to left,
+      rgba(40, 83, 95, 0.521),
+      rgba(3, 29, 34, 0.9)
+    ),
+    url("../../assets/newslandind.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
