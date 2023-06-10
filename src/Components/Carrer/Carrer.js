@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Carrer.css"
-import  carrer from "../../assets/carrer2.jpg"
+import  carrer from "../../assets/carreer3.jpg"
 import Nav from '../Nav/Nav';
 const Carrer = () => {
     return (
