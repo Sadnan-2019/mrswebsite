@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { FaPhoneVolume } from "react-icons/fa";
-import camera from "../../assets/camera.jpeg";
+import camera from "../../assets/newslandingimg.jpg";
 import "./NewsMediaLanding.css"
 
 const NewsMediaLanding = () => {
@@ -60,7 +60,7 @@ const NewsMediaLanding = () => {
                   <img
                     src={camera}
                     alt=""
-                    className="rounded-full h-5/6 w-5/6 "
+                    className="rounded-full    "
                   />
                 </div>
         </div>
