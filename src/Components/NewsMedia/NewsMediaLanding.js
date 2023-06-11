@@ -61,6 +61,7 @@ const NewsMediaLanding = () => {
                     src={camera}
                     alt=""
                     className="rounded-full    "
+                    data-aos="zoom-in"
                   />
                 </div>
         </div>

@@ -1,8 +1,10 @@
 import React from 'react';
 import "./Carrer.css"
-import  carrer from "../../assets/carreer3.jpg"
+import  carrer from "../../assets/careearlanding.jpg"
 import Nav from '../Nav/Nav';
 const Carrer = () => {
+
+  // ScrollReveal().reveal(target, options);/
     return (
         <div>
             <Nav className=" "></Nav>
@@ -14,15 +16,14 @@ const Carrer = () => {
               className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
               {" "}
-              WE ARE INFLUENCER MARKETING.
+              JOIN OUR TEAM.
             </h2>
 
             <h1
               className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
               style={{ lineHeight: "120%", color: "white" }}
             >
-              Strategy and execution from the company that launched the
-              industry.{" "}
+              Work Together For Success{" "}
             </h1>
 
             {/* <div className="flex items-center mt-2 font-bold">
@@ -59,6 +60,7 @@ const Carrer = () => {
                     src={carrer}
                     alt=""
                     className="rounded-full h-5/6 w-5/6 "
+                    data-aos="fade-left"
                   />
                 </div>
         </div>
@@ -103,6 +105,15 @@ const Carrer = () => {
             ></path>
           </svg>
         </div>
+
+        <h1 class="headline">
+    Widget Inc.
+</h1>
+<p class="tagline">
+    The perfect widgets.
+    <span class="punchline">Forever.</span>
+</p>
+
       </section>
         </div>
     );
