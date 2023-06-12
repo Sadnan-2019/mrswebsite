@@ -57,45 +57,67 @@
 .landingone {
   background-image: linear-gradient(
       to left,
-      rgba(40, 83, 95, 0.521),
-      rgba(3, 29, 34, 0.9)
+      rgba(154, 143, 213, 0.01),
+      rgba(0, 9, 10, 0.9)
     ),
     url("../../assets/landingsix.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* background-repeat: no-repeat;
+    background-size: cover; */
+  height: auto;
+  width: 100%;
+  /* background-size: contain; */
+  background-size: cover;
+
+  background-size: 100% 85%;
+
+  background-repeat: no-repeat;
 }
 .landingtwo {
-  background-image: 
-  linear-gradient(
+  background-image: linear-gradient(
+    to left,
+    rgba(5, 5, 9, 0.01),
+    rgba(0, 9, 10, 0.9)
+  ),
+    url("../../assets/newslandind.jpg");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  height: auto;
+  width: 100%;
+  /* background-size: contain; */
+  background-size: cover;
+
+  background-size: 100% 85%;
+
+  background-repeat: no-repeat;
+}
+.landingthree {
+  background-image: linear-gradient(
       to left,
       rgba(154, 143, 213, 0.01),
       rgba(0, 9, 10, 0.9)
     ),
-    url("../../assets/landingthree.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
+    url("../../assets/landing10.avif");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  height: auto;
+  width: 100%;
+  /* background-size: contain; */
+  background-size: cover;
+
+  background-size: 100% 85%;
+
+  background-repeat: no-repeat;
 }
-.landingthree {
-  background-image: 
-  linear-gradient(
-      to left,
-      rgba(154, 143, 213, 0.01),
-      rgba(0, 9, 10, 0.9)
-    ),
-    url("../../assets/landingseven.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.landingthree {
+/* .landingthree {
   background-image: linear-gradient(
       to left,
       rgba(72, 90, 95, 0.221),
       rgba(3, 29, 34, 0.9)
     ),
     url("../../assets/landingnine.jpg");
-     background-repeat: no-repeat;
-    background-size: cover;
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 .landingfour {
   background-image: linear-gradient(
       to left,
@@ -109,7 +131,6 @@
 
 .slide-text {
   opacity: 0;
- 
 }
 
 .animated {
@@ -136,8 +157,6 @@
   }
 }
 
-
-
 .zoom-in-on-scroll {
   opacity: 0;
 }
@@ -151,12 +170,10 @@
   transform: scale(1);
 }
 
-
 /* /////img  */
 
 .slide-img {
   opacity: 0;
- 
 }
 
 .animated-img {

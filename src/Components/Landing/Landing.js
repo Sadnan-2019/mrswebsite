@@ -72,7 +72,7 @@ const Landing = () => {
 
         <Slider {...settings}>
           <div className=" ">
-            <section className="landingone  blog h-auto       shadow-xl  text-white">
+            <section className="landingone  blog h-auto       text-white">
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   <h2
@@ -152,7 +152,7 @@ const Landing = () => {
             </section>
           </div>
           <div className=" ">
-            <section className="landingtwo  blog h-auto       shadow-xl  text-white">
+            <section className="landingtwo  blog h-auto        text-white">
               <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
                 <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
                   <h2
