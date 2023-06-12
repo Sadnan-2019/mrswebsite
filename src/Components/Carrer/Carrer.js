@@ -146,7 +146,7 @@ const Carrer = () => {
                       <span class="">Upload a file</span>
                       <input id="file-upload" name="file-upload" type="file" class="sr-only"/>
                     </label>
-                    <p class="pl-1 text-white">Drop</p>
+                    {/* <p class="pl-1 text-white">Drop</p> */}
                   </div>
                   <p class="text-xs text-white">
                     PDF OR DOC
@@ -157,7 +157,7 @@ const Carrer = () => {
         </div>
 
         <div class="flex justify-end mt-6">
-            <button class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-pink-500 rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600">Save</button>
+            <button class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-gradient-to-r from-[#92468E] to-[#92468E] rounded-md   focus:outline-none focus:bg-gray-600">Send</button>
         </div>
     </form>
 </section>
