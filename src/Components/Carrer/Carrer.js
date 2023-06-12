@@ -90,7 +90,7 @@ const Carrer = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 px-12 gap-10  items-center justify-items-center">
         <div>
           <p className="text-neutral text-1xl p-5">
-            We consider the people of MR GROUP to be our greatest asset. We
+            We consider the people of MRS to be our greatest asset. We
             serve the needs of our businesses by implementing key hiring
             processes and creating a performance-driven culture for the group’s
             companies.
@@ -104,15 +104,15 @@ const Carrer = () => {
             If you have the expertise and the desire to join MR GROUP, click
             the button below for possibilities and opportunities.
           </p>
-          <div className="py-2 px-5">
+          {/* <div className="py-2 px-5">
             <Link  to="/contact" className="btn btn-xs sm:btn-sm md:btn-md mb-4 bg-gradient-to-r from-[#303640] to-[#103264]">
               Contact
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="py-4">
         {/* <!-- component --> */}
-<section class="max-w-4xl p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
+<section class="max-w-4xl p-6 mx-auto bg-gradient-to-r from-[#92468E] to-[#38235D] rounded-md shadow-md dark:bg-gray-900  ">
     {/* <h1 class="text-xl font-bold text-white capitalize dark:text-white">Account settings</h1> */}
     <form>
         <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
