@@ -134,7 +134,7 @@ const Carrer = () => {
           
             <div>
                 <label class="block text-sm font-medium text-white">
-                Image
+                CV
               </label>
               <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
                 <div class="space-y-1 text-center">
@@ -146,10 +146,10 @@ const Carrer = () => {
                       <span class="">Upload a file</span>
                       <input id="file-upload" name="file-upload" type="file" class="sr-only"/>
                     </label>
-                    <p class="pl-1 text-white">or drag and drop</p>
+                    <p class="pl-1 text-white">Drop</p>
                   </div>
                   <p class="text-xs text-white">
-                    PNG, JPG, GIF up to 10MB
+                    PDF OR DOC
                   </p>
                 </div>
               </div>
