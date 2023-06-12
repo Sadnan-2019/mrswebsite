@@ -1,18 +1,9 @@
 import React from "react";
-import "./Carrer.css";
 import carrer from "../../assets/careearlanding.jpg";
-import Nav from "../Nav/Nav";
-// import ScrollReveal from 'scrollreveal';
-
-const Carrer = () => {
-//   ScrollReveal().reveal('.headline');
-// ScrollReveal().reveal('.tagline', { delay: 500 });
-// ScrollReveal().reveal('.punchline', { delay: 2000 });
-
+const AboutLanding = () => {
   return (
     <div>
-      <Nav className=" "></Nav>
-      <section className="carrerlanding    blog     shadow-xl  text-white">
+      <section className="carrerlanding    blog h-auto       shadow-xl  text-white">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8  order-2   lg:mt-0">
             <h2
@@ -20,7 +11,7 @@ const Carrer = () => {
               className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
               {" "}
-              Do you have what it takes to join MRS?
+              JOIN OUR TEAM.
             </h2>
 
             <h1
@@ -74,8 +65,18 @@ const Carrer = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          
           {/* <svg
+            className=""
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="white"
+              fill-opacity="50"
+              d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+            ></path>
+          </svg> */}
+          <svg
             width="100%"
             height="100%"
             id="svg"
@@ -97,25 +98,11 @@ const Carrer = () => {
               fill-opacity="50"
               class="transition-all duration-300 ease-in-out delay-150 path-0"
             ></path>
-          </svg> */}
+          </svg>
         </div>
-
-        {/* <svg
-            className=""
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="white"
-              fill-opacity="50"
-              d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-            ></path>
-          </svg> */}
       </section>
-
-     
     </div>
   );
 };
 
-export default Carrer;
+export default AboutLanding;

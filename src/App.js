@@ -23,6 +23,8 @@ import ScrollingContent from "./Components/SVG/ScrollingContent";
 import SliderWithFadeInTextAnimation from "./Components/SVG/SliderWithFadeInTextAnimation";
 import NewNav from "./Components/Nav/NewNav";
 import Carrer from "./Components/Carrer/Carrer";
+import About from "./Components/About/About";
+
 // import Parallax from './Components/Parallax/Parallax';
 
 function App() {
@@ -49,16 +51,17 @@ function App() {
       {/* <Landing></Landing> */}
 
       <Routes>
-      <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
-        
+
         <Route path="/news-media" element={<NewsMedia />}></Route>
         <Route path="/career" element={<Carrer />}></Route>
+        <Route path="/about" element={<About />}></Route>
         {/* <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
         <Route path="/manualtherapy" element={<ManualTherapy />}></Route>
         <Route path="/sports-injuries" element={<SportsInjuries />}></Route>
         <Route path="/rehabilitation" element={<Rehabilitation />}></Route> */}
-        </Routes>
+      </Routes>
       {/* <ZoomInOnScroll></ZoomInOnScroll> */}
       {/* <SliderWithTextAnimation></SliderWithTextAnimation>
       <SliderWithFadeInTextAnimation></SliderWithFadeInTextAnimation> */}
@@ -66,6 +69,7 @@ function App() {
       {/* <Parallax></Parallax> */}
       {/* <ScrollingTime></ScrollingTime> */}
       {/* <ScrollingContent></ScrollingContent> */}
+
       <Footer></Footer>
     </div>
   );

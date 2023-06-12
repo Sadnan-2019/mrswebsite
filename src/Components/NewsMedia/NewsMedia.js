@@ -12,6 +12,7 @@ const NewsMedia = () => {
      
       <Nav className=" "></Nav>
       <NewsMediaLanding></NewsMediaLanding>
+      <h2 class="mb-12 text-center mt-9 text-3xl font-bold">Latest News</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 mx-4  items-center justify-items-center">
         {/* <div className="  w-full h-screen   items-center justify-items-center bg-cover bg-no-repeat media">
           <div className=" mt-[337px] ml-[40px] items-center justify-items-center                         ">
@@ -46,7 +47,7 @@ const NewsMedia = () => {
 <div class="container   mx-auto md:px-6">
   {/* <!-- Section: Design Block --> */}
   <section class="mb-32 text-center md:text-left">
-    <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2>
+    {/* <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2> */}
 
     <div class="mb-6 flex flex-wrap">
       <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
@@ -160,7 +161,7 @@ const NewsMedia = () => {
 <div class="container   mx-auto md:px-6">
   {/* <!-- Section: Design Block --> */}
   <section class="mb-32 text-center md:text-left">
-    <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2>
+    {/* <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2> */}
 
     <div class="mb-6 flex flex-wrap">
       <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
@@ -279,7 +280,7 @@ const NewsMedia = () => {
     {/* <!-- Section: Design Block --> */}
     <section class="mb-32">
     
-      <h2 class="mb-12 text-center text-3xl font-bold">Latest News</h2>
+    
 
       <div class="grid gap-6 lg:grid-cols-3">
         <div
