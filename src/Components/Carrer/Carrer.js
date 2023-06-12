@@ -2,6 +2,7 @@ import React from "react";
 import "./Carrer.css";
 import carrer from "../../assets/careearlanding.jpg";
 import Nav from "../Nav/Nav";
+import { Link } from "react-router-dom";
 // import ScrollReveal from 'scrollreveal';
 
 const Carrer = () => {
@@ -12,7 +13,9 @@ const Carrer = () => {
   return (
     <div>
       <Nav className=" "></Nav>
-      <section className="carrerlanding    blog     shadow-xl  text-white">
+      <section className="carrerlanding    blog         ">
+    
+
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8  order-2   lg:mt-0">
             <h2
@@ -69,51 +72,100 @@ const Carrer = () => {
           </div>
         </div>
 
-        <div
+        {/* <div
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
           
-          {/* <svg
-            width="100%"
-            height="100%"
-            id="svg"
-            viewBox="0 0 1440 390"
-            xmlns="http://www.w3.org/2000/svg"
-            class="transition duration-300 ease-in-out delay-150"
-          >
-            <defs>
-              <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
-                <stop offset="5%" stop-color="#F78DA7"></stop>
-                <stop offset="95%" stop-color="#8ED1FC"></stop>
-              </linearGradient>
-            </defs>
-            <path
-              d="M 0,400 C 0,400 0,200 0,200 C 97.29186602870817,207.66507177033492 194.58373205741634,215.33014354066987 292,209 C 389.41626794258366,202.66985645933013 486.956937799043,182.3444976076555 578,172 C 669.043062200957,161.6555023923445 753.5885167464115,161.2918660287081 860,183 C 966.4114832535885,204.7081339712919 1094.688995215311,248.48803827751198 1195,255 C 1295.311004784689,261.511961722488 1367.6555023923445,230.755980861244 1440,200 C 1440,200 1440,400 1440,400 Z"
-              stroke="none"
-              stroke-width="0"
-              fill="white"
-              fill-opacity="50"
-              class="transition-all duration-300 ease-in-out delay-150 path-0"
-            ></path>
-          </svg> */}
-        </div>
+          
+        </div> */}
 
-        {/* <svg
-            className=""
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="white"
-              fill-opacity="50"
-              d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-            ></path>
-          </svg> */}
+       
       </section>
 
+      <div>
      
+ 
+      <div className="grid grid-cols-1 lg:grid-cols-2 px-12 gap-10  items-center justify-items-center">
+        <div>
+          <p className="text-neutral text-1xl p-5">
+            We consider the people of MR GROUP to be our greatest asset. We
+            serve the needs of our businesses by implementing key hiring
+            processes and creating a performance-driven culture for the group’s
+            companies.
+          </p>
+          <p className="text-neutral text-1xl p-5">
+            We attract, develop and retain talent, ensuring employee inclusion
+            and engagement. Throughout our work, we strive to deliver clear,
+            simple and effective services for the well-being of our people.
+          </p>
+          <p className="text-neutral text-1xl p-5">
+            If you have the expertise and the desire to join MR GROUP, click
+            the button below for possibilities and opportunities.
+          </p>
+          <div className="py-2 px-5">
+            <Link  to="/contact" className="btn btn-xs sm:btn-sm md:btn-md mb-4 bg-gradient-to-r from-[#303640] to-[#103264]">
+              Contact
+            </Link>
+          </div>
+        </div>
+        <div className="py-4">
+        {/* <!-- component --> */}
+<section class="max-w-4xl p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
+    {/* <h1 class="text-xl font-bold text-white capitalize dark:text-white">Account settings</h1> */}
+    <form>
+        <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
+            <div>
+                <label class="text-white dark:text-gray-200" for="username">Username</label>
+                <input id="username" type="text" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+            </div>
+
+            <div>
+                <label class="text-white dark:text-gray-200" for="emailAddress">Email Address</label>
+                <input id="emailAddress" type="email" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+            </div>
+
+            
+
+            
+            
+            
+          
+            <div>
+                <label class="block text-sm font-medium text-white">
+                Image
+              </label>
+              <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
+                <div class="space-y-1 text-center">
+                  <svg class="mx-auto h-12 w-12 text-white" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+                    <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <div class="flex text-sm text-gray-600">
+                    <label for="file-upload" class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                      <span class="">Upload a file</span>
+                      <input id="file-upload" name="file-upload" type="file" class="sr-only"/>
+                    </label>
+                    <p class="pl-1 text-white">or drag and drop</p>
+                  </div>
+                  <p class="text-xs text-white">
+                    PNG, JPG, GIF up to 10MB
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="flex justify-end mt-6">
+            <button class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-pink-500 rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600">Save</button>
+        </div>
+    </form>
+</section>
+
+
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
