@@ -62,11 +62,11 @@ const Carrer = () => {
             </div> */}
           </div>
 
-          <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+          <div class="  sm:max-w-xs  text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
             <img
               src={carrer}
               alt=""
-              className="rounded-full h-5/6 w-5/6 "
+              className=" lg:max-w-md  h-3/6 w-5/6 "
               data-aos="fade-left"
             />
           </div>
