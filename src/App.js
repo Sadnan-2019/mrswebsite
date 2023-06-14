@@ -24,6 +24,7 @@ import SliderWithFadeInTextAnimation from "./Components/SVG/SliderWithFadeInText
 import NewNav from "./Components/Nav/NewNav";
 import Carrer from "./Components/Carrer/Carrer";
 import About from "./Components/About/About";
+import ToggleButton from "./Components/SVG/ToggleButton";
 
 // import Parallax from './Components/Parallax/Parallax';
 
@@ -46,6 +47,8 @@ function App() {
         </a>
       </header> */}
       <TopNav />
+      
+      {/* <ToggleButton></ToggleButton> */}
       {/* <NewNav></NewNav> */}
       {/* <Nav></Nav> */}
       {/* <Landing></Landing> */}

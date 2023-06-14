@@ -1,13 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaFacebookSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { TiSocialTwitter } from "react-icons/ti";
 import { TiSocialInstagram } from "react-icons/ti";
 import { NavLink } from 'react-router-dom';
 import TopNav from '../TopNav/TopNav';
+import sun from "../../assets/sunny-day.png";
+import moon from "../../assets/moon.png";
 
 const Nav = () => {
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+  );
 
+  // update state on toggle
+  const handleToggle = (e) => {
+    if (e.target.checked) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+
+  // set theme state in localstorage on mount & also update localstorage on state change
+  useEffect(() => {
+    localStorage.setItem("theme", theme);
+    const localTheme = localStorage.getItem("theme");
+    // add custom data-theme attribute to html tag required to update theme using DaisyUI
+    document.querySelector("html").setAttribute("data-theme", localTheme);
+  }, [theme]);
     const active =
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";
   const normal =
@@ -120,6 +141,23 @@ const Nav = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="  menu-horizontal p-0">{navItem}</ul>
         </div>
+        <div className="flex-none">
+        {/* Toggle button here */}
+        <button className="btn btn-square btn-ghost">
+          <label className="swap swap-rotate w-12 h-12">
+            <input
+              type="checkbox"
+              onChange={handleToggle}
+              // show toggle image based on localstorage theme
+              checked={theme === "light" ? false : true}
+            />
+            {/* light theme sun image */}
+            <img src={sun} alt="light" className="w-8 h-8 swap-on" />
+            {/* dark theme moon image */}
+            <img src={moon} alt="dark" className="w-8 h-8 swap-off" />
+          </label>
+        </button>
+      </div>
         {/* <div className="navbar-end">
           <a className="btn">Get started</a>
         </div> */}
