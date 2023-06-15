@@ -6,10 +6,10 @@ const Team = () => {
       <div>
         <div className="container flex justify-center mx-auto pt-16">
           <div>
-            <p className="bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-lg text-center font-normal pb-3">
+            <p className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600 text-lg text-center font-bold pb-3">
               BUILDING TEAM
             </p>
-            <h1 className="xl:text-4xl text-3xl text-center bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">
+            <h1 className="xl:text-4xl text-transparent text-3xl text-center bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">
               The Talented People Behind the Scenes of the Organization
             </h1>
           </div>
