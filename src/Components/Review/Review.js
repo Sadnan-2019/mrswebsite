@@ -350,7 +350,7 @@ const Review = () => {
 
                               <div class="mt-4">
                                 <p class="text-2xl font-bold text-white sm:text-3xl transition duration-300 ease-in-out delay-150">
-                                  Rohim udinin{" "}
+                                  Raihan Uddin{" "}
                                 </p>
 
                                 <p class="mt-4 leading-relaxed text-white">

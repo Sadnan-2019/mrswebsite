@@ -1,16 +1,16 @@
 .aboutlanding {
   background-image: linear-gradient(
       to left,
-      rgba(40, 83, 95, 0.521),
+      rgba(2, 9, 11, 0.521),
       rgba(3, 29, 34, 0.9)
     ),
-    url("../../assets/about3.jpg");
+    url("../../assets/aloneabout.jpg");
   height: auto;
   width: 100%;
   /* background-size: contain; */
   background-size: cover;
 
-  background-size: 100% 85%;
+  background-size: 100% 90%;
   
   background-repeat: no-repeat;
 }

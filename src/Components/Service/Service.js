@@ -32,11 +32,13 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000">
+          <div
+            className="       "
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
+          >
             <figure className=" rounded-lg image-container">
               <img
                 src={video}
@@ -66,11 +68,12 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       "
-          data-aos="zoom-in"
-          data-aos-offset="300"
-          data-aos-delay="5000"
-          data-aos-duration="3000"
+          <div
+            className="       "
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
           >
             <figure className=" rounded-lg image-container">
               <img
@@ -101,12 +104,12 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       "
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-delay="5000"
-          data-aos-duration="3000"
-          
+          <div
+            className="       "
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
           >
             <figure className=" rounded-lg image-container">
               <img
@@ -137,11 +140,12 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       "
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-delay="5000"
-          data-aos-duration="3000"
+          <div
+            className="       "
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
           >
             <figure className=" rounded-lg image-container">
               <img
@@ -172,12 +176,12 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       "
-          data-aos="zoom-in"
-          data-aos-offset="300"
-          data-aos-delay="5000"
-          data-aos-duration="3000"
-          
+          <div
+            className="       "
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
           >
             <figure className=" rounded-lg image-container">
               <img
@@ -208,12 +212,12 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       "
-          
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-delay="5000"
-          data-aos-duration="3000"
+          <div
+            className="       "
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
           >
             <figure className=" rounded-lg image-container">
               <img
@@ -241,15 +245,16 @@ const Service = () => {
           // data-aos="fade-left"
           // data-aos-offset="300"
           // data-aos-easing="ease-in-sine"
-          
+
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       "
-          data-aos="zoom-in"
-          data-aos-offset="300"
-          data-aos-delay="5000"
-          data-aos-duration="3000"
+          <div
+            className="       "
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
           >
             <figure className=" rounded-lg image-container">
               <img
@@ -297,8 +302,17 @@ const Service = () => {
           class="transition-all duration-300 ease-in-out delay-150 path-0"
         ></path>
       </svg> */}
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" 
-      
+     <div
+     data-aos="zoom-in"
+     data-aos-offset="300"
+     data-aos-delay="5000"
+     data-aos-duration="3000"
+     
+     >
+     <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        
       >
         <path
           fill="white"
@@ -306,6 +320,7 @@ const Service = () => {
           d="M0,192L80,202.7C160,213,320,235,480,208C640,181,800,107,960,117.3C1120,128,1280,224,1360,272L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>
       </svg>
+     </div>
     </div>
   );
 };
