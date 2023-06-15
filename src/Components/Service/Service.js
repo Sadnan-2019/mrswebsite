@@ -32,7 +32,11 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       ">
+          <div className="       "
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000">
             <figure className=" rounded-lg image-container">
               <img
                 src={video}
@@ -62,7 +66,12 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       ">
+          <div className="       "
+          data-aos="zoom-in"
+          data-aos-offset="300"
+          data-aos-delay="5000"
+          data-aos-duration="3000"
+          >
             <figure className=" rounded-lg image-container">
               <img
                 src={graphices}
@@ -92,7 +101,13 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       ">
+          <div className="       "
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-delay="5000"
+          data-aos-duration="3000"
+          
+          >
             <figure className=" rounded-lg image-container">
               <img
                 src={digitalmarketing}
@@ -122,7 +137,12 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       ">
+          <div className="       "
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-delay="5000"
+          data-aos-duration="3000"
+          >
             <figure className=" rounded-lg image-container">
               <img
                 src={SEO2}
@@ -152,7 +172,13 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       ">
+          <div className="       "
+          data-aos="zoom-in"
+          data-aos-offset="300"
+          data-aos-delay="5000"
+          data-aos-duration="3000"
+          
+          >
             <figure className=" rounded-lg image-container">
               <img
                 src={web}
@@ -182,7 +208,13 @@ const Service = () => {
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       ">
+          <div className="       "
+          
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-delay="5000"
+          data-aos-duration="3000"
+          >
             <figure className=" rounded-lg image-container">
               <img
                 src={mobile}
@@ -209,10 +241,16 @@ const Service = () => {
           // data-aos="fade-left"
           // data-aos-offset="300"
           // data-aos-easing="ease-in-sine"
+          
           class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
           style={{ height: "400px" }}
         >
-          <div className="       ">
+          <div className="       "
+          data-aos="zoom-in"
+          data-aos-offset="300"
+          data-aos-delay="5000"
+          data-aos-duration="3000"
+          >
             <figure className=" rounded-lg image-container">
               <img
                 src={content}
