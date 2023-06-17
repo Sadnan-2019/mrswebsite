@@ -3,16 +3,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
-import camera from "../../assets/camera.jpeg";
+// import camera from "../../assets/camera.jpeg";
 import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaPhoneVolume } from "react-icons/fa";
-import { Typewriter } from "react-simple-typewriter";
+// import { Typewriter } from "react-simple-typewriter";
 
 import Nav from "../Nav/Nav";
 const Landing = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [currentSlideTwo, setCurrentSlideTwo] = useState(0);
+  // const [currentSlideTwo, setCurrentSlideTwo] = useState(0);
 
   var settings = {
     dots: true,
@@ -25,9 +25,9 @@ const Landing = () => {
     afterChange: (index) => {
       setCurrentSlide(index);
     },
-    afternewChange: (index) => {
-      setCurrentSlideTwo(index);
-    },
+    // afternewChange: (index) => {
+    //   setCurrentSlideTwo(index);
+    // },
     autoplay: "true",
     autoplaySpeed: 5000,
     responsive: [
@@ -57,13 +57,13 @@ const Landing = () => {
       },
     ],
   };
-  const handleType = (count) => {
-    // access word count number
-    // console.log(count)
-  };
-  const handleDone = () => {
-    // console.log(`Done after 5 loops!`)
-  };
+  // const handleType = (count) => {
+  //   access word count number
+  //   console.log(count)
+  // };
+  // const handleDone = () => {
+  //   console.log(`Done after 5 loops!`)
+  // };
 
   return (
     <div>
