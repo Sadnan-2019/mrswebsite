@@ -55,7 +55,7 @@ const AboutLanding = () => {
             <img
               src={carrer}
               alt=""
-              className="rounded-full h-5/6 w-5/6 "
+              className="diamond h-5/6 w-5/6 "
               data-aos="fade-left"
             />
           </div>

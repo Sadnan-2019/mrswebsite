@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { FaPhoneVolume } from "react-icons/fa";
 import camera from "../../assets/newslandingimg.jpg";
-import "./NewsMediaLanding.css"
+import "./NewsMediaLanding.css";
 
 const NewsMediaLanding = () => {
   return (
@@ -12,6 +12,10 @@ const NewsMediaLanding = () => {
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
             <h2
+              data-aos="zoom-in"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000"
               style={{ lineHeight: "120%" }}
               className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
@@ -33,8 +37,8 @@ const NewsMediaLanding = () => {
                 style={{ color: "white" }}
               />
               <span
-                className="lg:text-2xl text-[20px] "
-                style={{ color: "white" }}
+                className="lg:text-2xl text-[20px]  text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+                 
               >
                 {" "}
                 Call Now: 01619848555
@@ -57,13 +61,17 @@ const NewsMediaLanding = () => {
           </div>
 
           <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-                  <img
-                    src={camera}
-                    alt=""
-                    className="rounded-full    "
-                    data-aos="zoom-in"
-                  />
-                </div>
+            <img
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-delay="5000"
+            data-aos-duration="3000"
+              src={camera}
+              alt=""
+              className="rounded-full    "
+             
+            />
+          </div>
         </div>
 
         <div

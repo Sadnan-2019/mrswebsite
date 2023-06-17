@@ -14,3 +14,12 @@
   
   background-repeat: no-repeat;
 }
+
+
+.diamond {
+  /* width: 200px;
+  height: 200px; */
+  /* background-image: url('path/to/your/image.jpg'); */
+  background-size: cover;
+  transform: rotate(45deg) skew(20deg, 20deg);
+}

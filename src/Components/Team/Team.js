@@ -18,18 +18,36 @@ const Team = () => {
           <div className="container mx-auto">
             <div className="lg:flex  md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
               <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
-                <div className="rounded overflow-hidden  shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]">
+                <div
+                  className="
+                
+                rounded overflow-hidden  shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]
+                
+                   transition-colors duration-300 hover:bg-white hover:text-black
+                
+                
+                "
+                >
                   <div className="absolute -mt-20 w-full flex justify-center">
                     <div className="h-32 w-32">
                       <img
                         src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif"
                         alt
                         className="rounded-full object-cover h-full w-full shadow-md"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-delay="5000"
+                        data-aos-duration="3000"
                       />
                     </div>
                   </div>
                   <div className="px-6 mt-16 text-gray-100 ">
-                    <div className="font-bold text-3xl text-center pb-1">
+                    <div className="font-bold text-3xl text-center pb-1"
+                    data-aos="flip-left"
+                    data-aos-offset="300"
+                    data-aos-delay="5000"
+                    data-aos-duration="3000"
+                    >
                       Andres Berlin
                     </div>
                     <p className=" text-sm text-center">
@@ -116,16 +134,23 @@ const Team = () => {
                         src="https://cdn.tuk.dev/assets/photo-1530577197743-7adf14294584.jfif"
                         alt
                         className="rounded-full object-cover h-full w-full shadow-md"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-delay="5000"
+                        data-aos-duration="3000"
                       />
                     </div>
                   </div>
                   <div className="px-6 mt-16 text-gray-100">
-                    <div className="font-bold text-3xl text-center pb-1">
+                    <div className="font-bold text-3xl text-center pb-1"
+                    data-aos="flip-left"
+                    data-aos-offset="300"
+                    data-aos-delay="5000"
+                    data-aos-duration="3000"
+                    >
                       Silene Tokyo
                     </div>
-                    <p className="  text-sm text-center">
-                      Product Design Head
-                    </p>
+                    <p className="  text-sm text-center">Product Design Head</p>
                     <p className="text-center   text-base pt-3 font-normal">
                       The emphasis on innovation and technology in our companies
                       has resulted in a few of them establishing global
@@ -207,16 +232,23 @@ const Team = () => {
                         src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif"
                         alt
                         className="rounded-full object-cover h-full w-full shadow-md"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-delay="5000"
+                        data-aos-duration="3000"
                       />
                     </div>
                   </div>
                   <div className="px-6 mt-16 text-gray-100">
-                    <div className="font-bold text-3xl text-center pb-1">
+                    <div className="font-bold text-3xl text-center pb-1"
+                    data-aos="flip-left"
+                    data-aos-offset="300"
+                    data-aos-delay="5000"
+                    data-aos-duration="3000"
+                    >
                       Johnson Stone
                     </div>
-                    <p className="  text-sm text-center">
-                      Manager Development
-                    </p>
+                    <p className="  text-sm text-center">Manager Development</p>
                     <p className="text-center  first: text-base pt-3 font-normal">
                       Our services encompass the assessment and repair of
                       property damage caused by water, fire, smoke, or mold. We
@@ -298,11 +330,19 @@ const Team = () => {
                         src="https://cdn.tuk.dev/assets/boy-smiling_23-2148155640.jpg"
                         alt
                         className="rounded-full object-cover h-full w-full shadow-md"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-delay="5000"
+                        data-aos-duration="3000"
                       />
                     </div>
                   </div>
                   <div className="px-6 mt-16 text-gray-100">
-                    <div className="font-bold text-3xl text-center pb-1">
+                    <div className="font-bold text-3xl text-center pb-1"
+                    data-aos="flip-left"
+                     data-aos-offset="300"
+                     data-aos-delay="5000"
+                     data-aos-duration="3000">
                       Dean Jones
                     </div>
                     <p className=" text-sm text-center">
@@ -388,16 +428,23 @@ const Team = () => {
                         src="https://cdn.tuk.dev/assets/blond-man-happy-expression_1194-2873.jpg"
                         alt
                         className="rounded-full object-cover h-full w-full shadow-md"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-delay="5000"
+                        data-aos-duration="3000"
                       />
                     </div>
                   </div>
                   <div className="px-6 mt-16 text-gray-100">
-                    <div className="font-bold text-3xl text-center pb-1">
+                    <div className="font-bold text-3xl text-center pb-1"
+                    data-aos="flip-left"
+                    data-aos-offset="300"
+                    data-aos-delay="5000"
+                    data-aos-duration="3000"
+                    >
                       Rachel Adams
                     </div>
-                    <p className="  text-sm text-center">
-                      Product Design Head
-                    </p>
+                    <p className="  text-sm text-center">Product Design Head</p>
                     <p className="text-center   text-base pt-3 font-normal">
                       Product designer with interests in immersive computing and
                       XR, political ventures, and emerging technologies. Able to
@@ -479,16 +526,23 @@ const Team = () => {
                         src="https://cdn.tuk.dev/assets/photo-1570211776045-af3a51026f4a.jfif"
                         alt
                         className="rounded-full object-cover h-full w-full shadow-md"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-delay="5000"
+                        data-aos-duration="3000"
                       />
                     </div>
                   </div>
                   <div className="px-6 mt-16 text-gray-100">
-                    <div className="font-bold text-3xl text-center pb-1">
+                    <div className="font-bold text-3xl text-center pb-1"
+                     data-aos="flip-left"
+                     data-aos-offset="300"
+                     data-aos-delay="5000"
+                     data-aos-duration="3000"
+                    >
                       Charles Keith
                     </div>
-                    <p className="  text-sm text-center">
-                      UX Designer
-                    </p>
+                    <p className="  text-sm text-center">UX Designer</p>
                     <p className="text-center   text-base pt-3 font-normal">
                       A UX designer is the voice of the customer. Our job is to
                       look beyond the business goals. We don't just experience
