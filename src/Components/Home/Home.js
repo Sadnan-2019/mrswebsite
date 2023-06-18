@@ -11,7 +11,7 @@ import Clients from '../Clients/Clients';
 const Home = () => {
     return (
         <div>
-           <Landing></Landing>
+           {/* <Landing></Landing> */}
       {/* <Shape></Shape> */}
       <Service></Service>
       {/* <Review></Review> */}
