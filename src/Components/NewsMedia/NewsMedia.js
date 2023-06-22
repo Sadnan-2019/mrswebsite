@@ -276,7 +276,7 @@ const NewsMedia = () => {
       </div>
       <div className="grid grid-col-1 md:grid-cols-1 gap-2 px-4 mx-4 items-center justify-items-center">
 
-      <div class="container   mx-auto md:px-6">
+      <div class="    mx-auto md:px-6">
     {/* <!-- Section: Design Block --> */}
     <section class="mb-32">
     
